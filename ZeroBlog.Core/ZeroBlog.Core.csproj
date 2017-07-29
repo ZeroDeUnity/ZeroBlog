@@ -112,6 +112,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestClass\People.cs" />
     <Compile Include="ZeroBlogConsts.cs" />
     <Compile Include="ZeroBlogCoreModule.cs" />
     <Compile Include="Authorization\ZeroBlogAuthorizationProvider.cs" />

@@ -3,6 +3,8 @@ using Abp.Zero.EntityFramework;
 using ZeroBlog.Authorization.Roles;
 using ZeroBlog.MultiTenancy;
 using ZeroBlog.Users;
+using System.Data.Entity;
+using ZeroBlog.TestClass;
 
 namespace ZeroBlog.EntityFramework
 {
@@ -43,5 +45,11 @@ namespace ZeroBlog.EntityFramework
         {
 
         }
+
+        /// <summary>
+        /// 人的类数据Db
+        /// </summary>
+        public virtual IDbSet<People> People { get; set; }
+
     }
 }
