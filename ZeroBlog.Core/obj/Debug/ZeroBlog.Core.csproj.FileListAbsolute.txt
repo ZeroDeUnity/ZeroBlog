@@ -77,4 +77,4 @@ D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Core\bin\Debug\System.Collections.Immutable
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Core\bin\Debug\System.Linq.Dynamic.Core.xml
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Core\obj\Debug\ZeroBlog.Core.dll
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Core\obj\Debug\ZeroBlog.Core.pdb
-D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Core\obj\Debug\ZeroBlog.Core.csprojResolveAssemblyReference.cache
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\obj\Debug\ZeroBlog.Core.csprojResolveAssemblyReference.cache

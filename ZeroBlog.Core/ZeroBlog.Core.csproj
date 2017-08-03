@@ -112,7 +112,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestClass\People.cs" />
     <Compile Include="ZeroBlogConsts.cs" />
     <Compile Include="ZeroBlogCoreModule.cs" />
     <Compile Include="Authorization\ZeroBlogAuthorizationProvider.cs" />
@@ -132,6 +131,7 @@
     <Compile Include="Users\User.cs" />
     <Compile Include="Users\UserManager.cs" />
     <Compile Include="Users\UserStore.cs" />
+    <Compile Include="ZeroBlogSQL\Zero_UserInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -166,6 +166,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Localization\Source\ZeroBlog-vi.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

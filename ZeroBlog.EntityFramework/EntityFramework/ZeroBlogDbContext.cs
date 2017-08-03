@@ -4,7 +4,7 @@ using ZeroBlog.Authorization.Roles;
 using ZeroBlog.MultiTenancy;
 using ZeroBlog.Users;
 using System.Data.Entity;
-using ZeroBlog.TestClass;
+using ZeroBlog.ZeroBlogSQL;
 
 namespace ZeroBlog.EntityFramework
 {
@@ -46,10 +46,7 @@ namespace ZeroBlog.EntityFramework
 
         }
 
-        /// <summary>
-        /// 人的类数据Db
-        /// </summary>
-        public virtual IDbSet<People> People { get; set; }
+        public IDbSet<Zero_UserInfo> Zero_UserInfo { get;set;}
 
     }
 }

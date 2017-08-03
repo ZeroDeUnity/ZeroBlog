@@ -7,13 +7,13 @@ namespace ZeroBlog.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Add_People_Entity_2 : IMigrationMetadata
+    public sealed partial class Add_Entity_Zero_UserInfo2 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Add_People_Entity_2));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Add_Entity_Zero_UserInfo2));
         
         string IMigrationMetadata.Id
         {
-            get { return "201707291316226_Add_People_Entity_2"; }
+            get { return "201708030841535_Add_Entity_Zero_UserInfo2"; }
         }
         
         string IMigrationMetadata.Source
