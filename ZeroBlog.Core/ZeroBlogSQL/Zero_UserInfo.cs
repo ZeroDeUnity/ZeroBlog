@@ -48,6 +48,12 @@ namespace ZeroBlog.ZeroBlogSQL
         public DateTime LoginTime { get; set; }
 
         /// <summary>
+        /// 用户邮箱
+        /// </summary>
+        [MaxLength(50)]
+        public string MailBox { get; set; }
+
+        /// <summary>
         /// 无参构造函数
         /// </summary>
         public Zero_UserInfo() {
