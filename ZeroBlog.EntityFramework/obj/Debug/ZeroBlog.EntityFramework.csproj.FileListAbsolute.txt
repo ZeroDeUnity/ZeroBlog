@@ -108,5 +108,9 @@ D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migratio
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.csproj.GenerateResource.Cache
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.dll
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.pdb
-D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_People_Entity_2.resources
-D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_People_Entity_3.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.chongzhishuju.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo1.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo2.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo21.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo3.resources
