@@ -136,3 +136,5 @@ D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Web.Http.WebHost.xm
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.csprojResolveAssemblyReference.cache
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.dll
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.pdb
+D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.WebApi\bin\Debug\ZeroBlog.Application.dll.config
+D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.WebApi\bin\Debug\ZeroBlog.Core.dll.config
