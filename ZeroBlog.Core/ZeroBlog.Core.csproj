@@ -112,6 +112,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRepositories\IZero_UserInfoRepository.cs" />
     <Compile Include="ZeroBlogConsts.cs" />
     <Compile Include="ZeroBlogCoreModule.cs" />
     <Compile Include="Authorization\ZeroBlogAuthorizationProvider.cs" />

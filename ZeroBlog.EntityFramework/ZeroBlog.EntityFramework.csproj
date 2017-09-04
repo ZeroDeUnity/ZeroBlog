@@ -132,6 +132,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityFramework\Repositories\Zero_UserInfoRepository.cs" />
     <Compile Include="EntityFramework\ZeroBlogDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\ZeroBlogRepositoryBase.cs" />
     <Compile Include="Migrations\201701271145151_AbpZero_Initial.cs" />
@@ -161,6 +162,18 @@
     <Compile Include="Migrations\201708030844193_Add_Entity_Zero_UserInfo3.cs" />
     <Compile Include="Migrations\201708030844193_Add_Entity_Zero_UserInfo3.Designer.cs">
       <DependentUpon>201708030844193_Add_Entity_Zero_UserInfo3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709040622173_updateZero_UserInfoModel.cs" />
+    <Compile Include="Migrations\201709040622173_updateZero_UserInfoModel.Designer.cs">
+      <DependentUpon>201709040622173_updateZero_UserInfoModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709040718091_updateZero_UserInfoModel_1.cs" />
+    <Compile Include="Migrations\201709040718091_updateZero_UserInfoModel_1.Designer.cs">
+      <DependentUpon>201709040718091_updateZero_UserInfoModel_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709040719242_updateZero_UserInfoModel_2.cs" />
+    <Compile Include="Migrations\201709040719242_updateZero_UserInfoModel_2.Designer.cs">
+      <DependentUpon>201709040719242_updateZero_UserInfoModel_2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -205,6 +218,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708030844193_Add_Entity_Zero_UserInfo3.resx">
       <DependentUpon>201708030844193_Add_Entity_Zero_UserInfo3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709040622173_updateZero_UserInfoModel.resx">
+      <DependentUpon>201709040622173_updateZero_UserInfoModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709040718091_updateZero_UserInfoModel_1.resx">
+      <DependentUpon>201709040718091_updateZero_UserInfoModel_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709040719242_updateZero_UserInfoModel_2.resx">
+      <DependentUpon>201709040719242_updateZero_UserInfoModel_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

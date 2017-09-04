@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Abp.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,15 +8,8 @@ using System.Threading.Tasks;
 
 namespace ZeroBlog.ZeroBlogSQL
 {
-    public class Zero_UserInfo
+    public class Zero_UserInfo:Entity<Guid>
     {
-        /// <summary>
-        /// 用户ID
-        /// </summary>
-        [Key]
-        [Required]
-        public Guid User_ID { get; set; }
-
         /// <summary>
         /// 用户名
         /// </summary>
