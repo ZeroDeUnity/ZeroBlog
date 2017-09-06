@@ -117,3 +117,4 @@ D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migratio
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.csproj.GenerateResource.Cache
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.dll
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.pdb
+D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\ZeroBlog.Core.dll.config

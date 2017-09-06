@@ -377,6 +377,7 @@
     <Content Include="Content\flags\famfamfam-flags.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="images\CureLogo.ico" />
     <Content Include="images\QD_images\ban.jpg" />
     <Content Include="images\QD_images\banner.jpg" />
     <Content Include="images\QD_images\bj.jpg" />

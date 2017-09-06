@@ -209,3 +209,758 @@ DEBUG 2017-09-06 18:02:57,416 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2017-09-06 18:02:57,417 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2017-09-06 18:02:57,418 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2017-09-06 18:02:57,419 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-06 20:12:31,498 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 20:12:31,508 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-06 20:12:31,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,516 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:31,518 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-06 20:12:31,641 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:12:31,642 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:12:31,642 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:12:31,642 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:12:31,848 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:12:32,833 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-06 20:12:32,840 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 20:12:32,845 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 20:12:32,847 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-06 20:12:32,848 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-06 20:12:32,911 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 20:12:32,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-06 20:12:32,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-06 20:12:32,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-06 20:12:32,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-06 20:12:32,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-06 20:12:32,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-06 20:12:32,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-06 20:12:32,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-06 20:12:34,115 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-06 20:12:34,115 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-06 20:12:34,116 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-06 20:12:34,117 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-09-06 20:13:44,226 [6    ] Blog.Web.Controllers.Blog_HomeController - ComponentActivator: could not instantiate ZeroBlog.EntityFramework.ZeroBlogDbContext
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate ZeroBlog.EntityFramework.ZeroBlogDbContext ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   at System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   at Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   at Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   at ZeroBlog.EntityFramework.ZeroBlogDbContext..ctor(String nameOrConnectionString) in D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\EntityFramework\ZeroBlogDbContext.cs:line 31
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   at Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   at Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   at Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   at Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Castle.Proxies.EfRepositoryBase`3Proxy_12.get_Context_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_15.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_12.get_Context()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_12.get_Table_callback()
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_15.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_12.get_Table()
+   at Abp.EntityFramework.Repositories.EfRepositoryBase`3.InsertAsync(TEntity entity)
+   at Castle.Proxies.EfRepositoryBase`3Proxy_12.InsertAsync_callback(AuditLog entity)
+   at Castle.Proxies.Invocations.EfRepositoryBase`3_InsertAsync_15.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.EfRepositoryBase`3Proxy_12.InsertAsync(AuditLog entity)
+   at Abp.Auditing.AuditingStore.SaveAsync(AuditInfo auditInfo)
+   at Abp.Auditing.AuditingStoreExtensions.<>c__DisplayClass0_0.<Save>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Auditing.AuditingStoreExtensions.Save(IAuditingStore auditingStore, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingHelper.Save(AuditInfo auditInfo)
+   at Abp.Web.Mvc.Auditing.AbpMvcAuditFilter.OnActionExecuted(ActionExecutedContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-09-06 20:14:16,301 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate ZeroBlog.EntityFramework.ZeroBlogDbContext ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   在 System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   在 System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   在 System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   在 System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   在 System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   在 System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   在 System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   在 Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   在 Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   在 ZeroBlog.EntityFramework.ZeroBlogDbContext..ctor(String nameOrConnectionString) 位置 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\EntityFramework\ZeroBlogDbContext.cs:行号 31
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   在 Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   在 Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate ZeroBlog.EntityFramework.ZeroBlogDbContext ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   在 System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   在 System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   在 System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   在 System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   在 System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   在 System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   在 System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   在 Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   在 Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   在 ZeroBlog.EntityFramework.ZeroBlogDbContext..ctor(String nameOrConnectionString) 位置 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\EntityFramework\ZeroBlogDbContext.cs:行号 31
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   在 Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   在 Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2017-09-06 20:14:26,165 [13   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-06 20:14:26,166 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2017-09-06 20:14:53,393 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate ZeroBlog.EntityFramework.ZeroBlogDbContext ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   在 System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   在 System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   在 System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   在 System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   在 System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   在 System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   在 System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   在 Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   在 Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   在 ZeroBlog.EntityFramework.ZeroBlogDbContext..ctor(String nameOrConnectionString) 位置 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\EntityFramework\ZeroBlogDbContext.cs:行号 31
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   在 Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   在 Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate ZeroBlog.EntityFramework.ZeroBlogDbContext ---> System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   在 System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   在 System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   在 System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   在 System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   在 System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   在 System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   在 System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   在 Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   在 Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   在 ZeroBlog.EntityFramework.ZeroBlogDbContext..ctor(String nameOrConnectionString) 位置 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\EntityFramework\ZeroBlogDbContext.cs:行号 31
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   在 Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   在 Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   在 Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2017-09-06 20:14:53,394 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 20:14:53,394 [13   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-06 20:15:22,819 [33   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 20:15:22,831 [33   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-06 20:15:22,836 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,838 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,838 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,838 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,839 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,840 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,840 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,840 [33   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:22,842 [33   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-06 20:15:22,998 [33   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:15:22,998 [33   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:15:22,998 [33   ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:15:22,998 [33   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 20:15:23,247 [33   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 20:15:24,181 [33   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-06 20:15:24,185 [33   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 20:15:24,195 [33   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 20:15:24,197 [33   ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-06 20:15:24,197 [33   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-06 20:15:24,283 [33   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 20:15:24,315 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-06 20:15:24,315 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-06 20:15:24,317 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-06 20:15:24,317 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-06 20:15:24,317 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-06 20:15:24,317 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-06 20:15:24,317 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-06 20:15:24,317 [33   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-06 20:15:25,628 [33   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-06 20:15:25,629 [33   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-06 20:15:25,630 [33   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-06 20:15:25,630 [33   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-06 23:02:06,486 [170  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-06 23:02:06,487 [170  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 23:02:06,488 [170  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 23:02:06,488 [170  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-06 23:02:39,916 [100  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-06 23:02:39,928 [100  ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-06 23:02:39,934 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,936 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,936 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,937 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,937 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,937 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,937 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,937 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,937 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,937 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,938 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,938 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,938 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,938 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,938 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,938 [100  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:39,940 [100  ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-06 23:02:40,070 [100  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:02:40,070 [100  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:02:40,070 [100  ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:02:40,070 [100  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-06 23:02:40,288 [100  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-06 23:02:41,023 [100  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-06 23:02:41,027 [100  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-06 23:02:41,042 [100  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-06 23:02:41,043 [100  ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-06 23:02:41,044 [100  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-06 23:02:41,118 [100  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-06 23:02:41,152 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-06 23:02:41,152 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-06 23:02:41,155 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-06 23:02:41,155 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-06 23:02:41,156 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-06 23:02:41,156 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-06 23:02:41,156 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-06 23:02:41,156 [100  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-06 23:02:42,381 [100  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-06 23:02:42,382 [100  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-06 23:02:42,383 [100  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-06 23:02:42,384 [100  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
