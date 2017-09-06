@@ -118,6 +118,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDtoMapping.cs" />
     <Compile Include="ZeroBlogApplicationModule.cs" />
     <Compile Include="ZeroBlogAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />
@@ -138,6 +139,18 @@
     <Compile Include="Users\Dto\ProhibitPermissionInput.cs" />
     <Compile Include="Users\UserAppService.cs" />
     <Compile Include="Users\Dto\UserListDto.cs" />
+    <Compile Include="Zero_UserInfos\Dto\CreateZero_UserInfoInput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\CreateZero_UserInfoOutput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\ListZero_UserInfoDto.cs" />
+    <Compile Include="Zero_UserInfos\Dto\ListZero_UserInfoOutput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\LoginZero_UserInfoInput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\LoginZero_UserInfoOutput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\RegisterZero_UserInfoInput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\RegisterZero_UserInfoOutput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\Zero_UserInfoDto.cs" />
+    <Compile Include="Zero_UserInfos\IZero_UserInfoAppService.cs" />
+    <Compile Include="Zero_UserInfos\Zero_UserInfoAppService.cs" />
+    <Compile Include="Zero_UserInfos\Zero_UserInfoDtoMapping.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -151,6 +164,7 @@
       <Name>ZeroBlog.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

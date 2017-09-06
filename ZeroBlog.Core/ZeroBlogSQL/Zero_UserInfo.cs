@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace ZeroBlog.ZeroBlogSQL
 {
+    /// <summary>
+    /// 用户表实体
+    /// </summary>
     public class Zero_UserInfo:Entity<Guid>
     {
         /// <summary>

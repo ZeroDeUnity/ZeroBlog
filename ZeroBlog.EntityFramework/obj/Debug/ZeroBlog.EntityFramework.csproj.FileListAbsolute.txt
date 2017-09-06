@@ -111,6 +111,9 @@ D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migratio
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo2.resources
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo21.resources
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo3.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.updateZero_UserInfoModel.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.updateZero_UserInfoModel_1.resources
+D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.updateZero_UserInfoModel_2.resources
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.csproj.GenerateResource.Cache
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.dll
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.pdb

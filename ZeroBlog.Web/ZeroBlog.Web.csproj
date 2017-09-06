@@ -360,14 +360,59 @@
     <Content Include="css\main.min.css">
       <DependentUpon>main.css</DependentUpon>
     </Content>
+    <Content Include="css\QD_css2\reset.css" />
+    <Content Include="css\QD_css2\style.css" />
+    <Content Include="css\QD_css\animate.css" />
+    <Content Include="css\QD_css\bootstrap.css" />
+    <Content Include="css\QD_css\cobox.css" />
+    <Content Include="css\QD_css\owl.carousel.css" />
+    <Content Include="css\QD_css\portfolio.css" />
+    <Content Include="css\QD_css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\abp-logo.png" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\flags\famfamfam-flags.css" />
     <Content Include="Content\flags\famfamfam-flags.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="images\QD_images\ban.jpg" />
+    <Content Include="images\QD_images\banner.jpg" />
+    <Content Include="images\QD_images\bj.jpg" />
+    <Content Include="images\QD_images\bj123.jpg" />
+    <Content Include="images\QD_images\bj2.jpg" />
+    <Content Include="images\QD_images\bj3.jpg" />
+    <Content Include="images\QD_images\bo.jpg" />
+    <Content Include="images\QD_images\img-sprite.png" />
+    <Content Include="images\QD_images\logo.png" />
+    <Content Include="images\QD_images\pc.jpg" />
+    <Content Include="images\QD_images\pc1.jpg" />
+    <Content Include="images\QD_images\pc2.jpg" />
+    <Content Include="images\QD_images\pc3.jpg" />
+    <Content Include="images\QD_images\pc4.jpg" />
+    <Content Include="images\QD_images\pc5.jpg" />
+    <Content Include="images\QD_images\pi.jpg" />
+    <Content Include="images\QD_images\pi1.jpg" />
+    <Content Include="images\QD_images\pi2.jpg" />
+    <Content Include="images\QD_images\pi3.jpg" />
+    <Content Include="images\QD_images\pi4.jpg" />
+    <Content Include="images\QD_images\pi5.jpg" />
+    <Content Include="images\QD_images\pi6.jpg" />
+    <Content Include="images\QD_images\qu.png" />
+    <Content Include="images\QD_images\qu3.png" />
+    <Content Include="images\QD_images\si.jpg" />
+    <Content Include="images\QD_images\si1.jpg" />
+    <Content Include="images\QD_images\si2.jpg" />
+    <Content Include="images\QD_images\te.jpg" />
+    <Content Include="images\QD_images\te1.jpg" />
+    <Content Include="images\QD_images\te2.jpg" />
+    <Content Include="images\QD_images\te3.jpg" />
+    <Content Include="images\QD_images\th.jpg" />
+    <Content Include="images\QD_images\th1.jpg" />
+    <Content Include="images\QD_images\tx1.jpg" />
+    <Content Include="images\QD_images\up.png" />
+    <Content Include="images\QD_images\z1.jpg" />
     <Content Include="js\main.js" />
     <Content Include="css\main.less" />
     <Content Include="css\main.css.map">
@@ -393,6 +438,13 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css.map" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
+    <Content Include="fonts\QD_fonts\Abel-Regular.ttf" />
+    <Content Include="fonts\QD_fonts\FredokaOne-Regular.ttf" />
+    <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\QD_fonts\Nunito-Regular.ttf" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -422,6 +474,14 @@
     <Content Include="Scripts\others\spinjs\spin.js" />
     <Content Include="Scripts\json2.js" />
     <Content Include="Scripts\json2.min.js" />
+    <Content Include="Scripts\QD_js2\main.js" />
+    <Content Include="Scripts\QD_js\bootstrap.min.js" />
+    <Content Include="Scripts\QD_js\easing.js" />
+    <Content Include="Scripts\QD_js\jquery.min.js" />
+    <Content Include="Scripts\QD_js\modernizr.custom.js" />
+    <Content Include="Scripts\QD_js\move-top.js" />
+    <Content Include="Scripts\QD_js\owl.carousel.js" />
+    <Content Include="Scripts\QD_js\wow.min.js" />
     <Content Include="Scripts\sweetalert\ie9.css" />
     <Content Include="Scripts\sweetalert\sweet-alert.css" />
     <Content Include="Scripts\sweetalert\sweet-alert.html" />
@@ -454,6 +514,7 @@
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Blog_HomeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Results\ChallengeResult.cs" />
     <Compile Include="Controllers\TenantsController.cs" />
@@ -492,6 +553,11 @@
     <Content Include="Views\Layout\_UserMenuOrLoginLink.cshtml" />
     <Content Include="Views\Tenants\Index.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\Blog_Home\About.cshtml" />
+    <Content Include="Views\Blog_Home\Contact.cshtml" />
+    <Content Include="Views\Blog_Home\Index.cshtml" />
+    <Content Include="Views\Blog_Home\single.cshtml" />
+    <Content Include="Views\Blog_Home\Test1.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -542,9 +608,10 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61814</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61759/</IISUrl>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>
+          </DevelopmentServerVPath>
+          <IISUrl>http://localhost:37232/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

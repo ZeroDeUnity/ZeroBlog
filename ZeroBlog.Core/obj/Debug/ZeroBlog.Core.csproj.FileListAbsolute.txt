@@ -75,6 +75,5 @@ D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\bin\Debug\Nito.AsyncEx.Concurrent.xml
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\bin\Debug\System.Collections.Immutable.xml
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\bin\Debug\System.Linq.Dynamic.Core.xml
-D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\obj\Debug\ZeroBlog.Core.csprojResolveAssemblyReference.cache
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\obj\Debug\ZeroBlog.Core.dll
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Core\obj\Debug\ZeroBlog.Core.pdb
