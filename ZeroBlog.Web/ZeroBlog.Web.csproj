@@ -500,6 +500,9 @@
     <Content Include="Views\Account\Register.js" />
     <Content Include="Views\Tenants\Index.js" />
     <Content Include="Views\Users\Index.js" />
+    <Content Include="Views\ZeroBlog_Home\About.cshtml" />
+    <Content Include="Views\ZeroBlog_Home\Contact.cshtml" />
+    <Content Include="Views\ZeroBlog_Home\Test1.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -515,7 +518,7 @@
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\Blog_HomeController.cs" />
+    <Compile Include="Controllers\ZeroBlog_HomeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Results\ChallengeResult.cs" />
     <Compile Include="Controllers\TenantsController.cs" />
@@ -554,11 +557,8 @@
     <Content Include="Views\Layout\_UserMenuOrLoginLink.cshtml" />
     <Content Include="Views\Tenants\Index.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
-    <Content Include="Views\Blog_Home\About.cshtml" />
-    <Content Include="Views\Blog_Home\Contact.cshtml" />
-    <Content Include="Views\Blog_Home\Index.cshtml" />
-    <Content Include="Views\Blog_Home\single.cshtml" />
-    <Content Include="Views\Blog_Home\Test1.cshtml" />
+    <Content Include="Views\ZeroBlog_Home\Index.cshtml" />
+    <Content Include="Views\ZeroBlog_Home\single.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

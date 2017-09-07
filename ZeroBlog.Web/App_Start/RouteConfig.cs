@@ -20,7 +20,7 @@ namespace ZeroBlog.Web
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Blog_Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "ZeroBlog_Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

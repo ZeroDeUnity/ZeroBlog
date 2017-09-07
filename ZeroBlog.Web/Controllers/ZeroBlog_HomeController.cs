@@ -7,9 +7,9 @@ using System.Web.Mvc;
 
 namespace ZeroBlog.Web.Controllers
 {
-    public class Blog_HomeController : AbpController
+    public class ZeroBlog_HomeController : AbpController
     {
-        public Blog_HomeController
+        public ZeroBlog_HomeController
             (
 
             )
