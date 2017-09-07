@@ -500,8 +500,6 @@
     <Content Include="Views\Account\Register.js" />
     <Content Include="Views\Tenants\Index.js" />
     <Content Include="Views\Users\Index.js" />
-    <Content Include="Views\ZeroBlog_Home\About.cshtml" />
-    <Content Include="Views\ZeroBlog_Home\Contact.cshtml" />
     <Content Include="Views\ZeroBlog_Home\Test1.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

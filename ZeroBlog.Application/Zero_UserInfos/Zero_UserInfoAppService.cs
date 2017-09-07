@@ -38,7 +38,7 @@ namespace ZeroBlog.Zero_UserInfos
         /// <returns></returns>
         public RegisterZero_UserInfoOutput RegisterUser(RegisterZero_UserInfoInput input)
         {
-            var RegisterMsg = "";
+            var RegisterMsg = string.Empty;
             var users = from userss in _Zero_UserInfoRepository.GetAll()
                         where userss.User_Name == input.User_Name
                         select userss;
