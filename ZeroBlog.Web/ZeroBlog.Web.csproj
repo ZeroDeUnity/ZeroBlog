@@ -446,10 +446,13 @@
     <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\QD_fonts\Nunito-Regular.ttf" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-2.2.0-vsdoc.js" />
+    <Content Include="Scripts\Common\jquery.timers-1.2.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.js" />
