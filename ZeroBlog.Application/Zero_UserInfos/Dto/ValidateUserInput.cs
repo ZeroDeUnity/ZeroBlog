@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace ZeroBlog.Zero_UserInfos.Dto
 {
     /// <summary>
-    /// 注册用户方法的返回数据Dto
+    /// 验证用户是否重复方法的输入Dto
     /// </summary>
-    public class RegisterZero_UserInfoOutput
+    public class ValidateUserInput
     {
         /// <summary>
-        /// 注册情况,注册成功就返回注册成功
+        /// 用户名
         /// </summary>
-        public string state { get; set; }
+        public string UserName { get; set; }
     }
 }

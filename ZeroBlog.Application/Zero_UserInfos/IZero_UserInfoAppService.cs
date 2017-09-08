@@ -26,6 +26,11 @@ namespace ZeroBlog.Zero_UserInfos
         /// <returns></returns>
         RegisterZero_UserInfoOutput RegisterUser(RegisterZero_UserInfoInput input);
 
-
+        /// <summary>
+        /// 验证用户名是否存在
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        ValidateUserOutput ValidateUser(ValidateUserInput input);
     }
 }

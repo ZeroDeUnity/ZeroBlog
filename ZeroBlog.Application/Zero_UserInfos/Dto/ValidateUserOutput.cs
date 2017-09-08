@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 namespace ZeroBlog.Zero_UserInfos.Dto
 {
     /// <summary>
-    /// 注册用户方法的返回数据Dto
+    ///     /// <summary>
+    /// 验证用户是否重复方法的输出Dto
     /// </summary>
-    public class RegisterZero_UserInfoOutput
+    public class ValidateUserOutput
     {
         /// <summary>
-        /// 注册情况,注册成功就返回注册成功
+        /// 验证状态,将返回0和1,0代表不存在重复,1代表存在重复
         /// </summary>
         public string state { get; set; }
     }

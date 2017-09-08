@@ -1600,3 +1600,811 @@ DEBUG 2017-09-08 14:13:16,218 [19   ] Abp.Modules.AbpModuleManager             -
 DEBUG 2017-09-08 14:13:16,219 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-09-08 14:13:16,220 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-09-08 14:13:16,220 [19   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-08 14:17:07,095 [27   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 14:17:07,111 [27   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 14:17:07,121 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,123 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,123 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,123 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,123 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,124 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,124 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,124 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,124 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,125 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,125 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,125 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,125 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,125 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,125 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,126 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:07,128 [27   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 14:17:07,346 [27   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 14:17:07,346 [27   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 14:17:07,346 [27   ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 14:17:07,346 [27   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 14:17:07,762 [27   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 14:17:09,191 [27   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 14:17:09,197 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 14:17:09,207 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 14:17:09,209 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 14:17:09,210 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 14:17:09,279 [27   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 14:17:09,330 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 14:17:09,330 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 14:17:09,333 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 14:17:09,333 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 14:17:09,334 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 14:17:09,334 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 14:17:09,334 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 14:17:09,334 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 14:17:10,748 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 14:17:10,751 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 14:17:10,753 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 14:17:10,754 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-08 17:03:46,281 [14   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-08 17:03:46,283 [14   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:03:46,284 [14   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:03:46,284 [14   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-08 17:03:59,063 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 17:03:59,080 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 17:03:59,089 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,097 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:03:59,100 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 17:03:59,253 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:03:59,253 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:03:59,253 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:03:59,253 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:03:59,660 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:04:00,679 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 17:04:00,698 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 17:04:00,708 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 17:04:00,710 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 17:04:00,711 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 17:04:00,791 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:04:00,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 17:04:00,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 17:04:00,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 17:04:00,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 17:04:00,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 17:04:00,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 17:04:00,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 17:04:00,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 17:04:02,272 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 17:04:02,274 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 17:04:02,275 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 17:04:02,277 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-08 17:38:46,549 [45   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-08 17:38:46,551 [45   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:38:46,552 [45   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:38:46,552 [45   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-08 17:38:56,720 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 17:38:56,746 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 17:38:56,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:56,772 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 17:38:57,020 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:38:57,021 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:38:57,021 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:38:57,021 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:38:57,500 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:38:59,187 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 17:38:59,195 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 17:38:59,206 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 17:38:59,209 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 17:38:59,211 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 17:38:59,354 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:38:59,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 17:38:59,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 17:38:59,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 17:38:59,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 17:38:59,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 17:38:59,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 17:38:59,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 17:38:59,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 17:39:01,798 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 17:39:01,800 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 17:39:01,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 17:39:01,802 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-08 17:40:25,199 [45   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-08 17:40:25,200 [45   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:40:25,200 [45   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:40:25,201 [45   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-08 17:40:35,044 [27   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 17:40:35,062 [27   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 17:40:35,071 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,074 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,074 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,074 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,074 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,074 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,075 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,075 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,075 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,075 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,075 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,075 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,075 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,076 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,076 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,076 [27   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:35,079 [27   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 17:40:35,230 [27   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:40:35,230 [27   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:40:35,230 [27   ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:40:35,230 [27   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:40:35,647 [27   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:40:37,014 [27   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 17:40:37,024 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 17:40:37,049 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 17:40:37,054 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 17:40:37,056 [27   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 17:40:37,212 [27   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:40:37,260 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 17:40:37,260 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 17:40:37,263 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 17:40:37,263 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 17:40:37,263 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 17:40:37,263 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 17:40:37,264 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 17:40:37,264 [27   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 17:40:39,474 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 17:40:39,475 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 17:40:39,477 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 17:40:39,479 [27   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-09-08 17:41:19,618 [61   ] .Web.Controllers.ZeroBlog_HomeController - Non-static field requires a target.
+System.Reflection.TargetException: Non-static field requires a target.
+   at System.Reflection.RtFieldInfo.CheckConsistency(Object target)
+   at System.Reflection.RtFieldInfo.InternalGetValue(Object obj, StackCrawlMark& stackMark)
+   at System.Reflection.RtFieldInfo.GetValue(Object obj)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object& memberValue)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression& constantExpression)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at ZeroBlog.Zero_UserInfos.Zero_UserInfoAppService.ValidateUser(ValidateUserInput input)
+   at Castle.Proxies.Zero_UserInfoAppServiceProxy.ValidateUser_callback(ValidateUserInput input)
+   at Castle.Proxies.Invocations.IZero_UserInfoAppService_ValidateUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.Zero_UserInfoAppServiceProxy.ValidateUser(ValidateUserInput input)
+   at ZeroBlog.Web.Controllers.ZeroBlog_HomeController.ValidateUser(ValidateUserInput input) in D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Web\Controllers\ZeroBlog_HomeController.cs:line 53
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-09-08 17:41:20,902 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:41:20,902 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/ValidateUser
+WARN  2017-09-08 17:41:20,924 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:41:20,924 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/ValidateUser
+WARN  2017-09-08 17:41:20,941 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:41:20,941 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/ValidateUser
+WARN  2017-09-08 17:43:23,806 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: 在从服务器接收结果时发生传输级错误。 (provider: Shared Memory Provider, error: 0 - 句柄无效。) ---> System.ComponentModel.Win32Exception: 句柄无效。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlDelegatedTransaction.Initialize()
+   在 System.Transactions.TransactionStatePSPEOperation.PSPEInitialize(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Guid promoterType)
+   在 System.Transactions.TransactionStateActive.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction, Guid promoterType)
+   在 System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Guid promoterType)
+   在 System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   在 System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: 在从服务器接收结果时发生传输级错误。 (provider: Shared Memory Provider, error: 0 - 句柄无效。) ---> System.ComponentModel.Win32Exception: 句柄无效。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   在 System.Data.SqlClient.SqlDelegatedTransaction.Initialize()
+   在 System.Transactions.TransactionStatePSPEOperation.PSPEInitialize(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Guid promoterType)
+   在 System.Transactions.TransactionStateActive.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction, Guid promoterType)
+   在 System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Guid promoterType)
+   在 System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   在 System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2017-09-08 17:47:29,203 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 17:47:29,499 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 17:47:29,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:29,515 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 17:47:29,904 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:47:29,904 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:47:29,904 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:47:29,904 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 17:47:30,439 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 17:47:31,356 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 17:47:31,367 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 17:47:31,386 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 17:47:31,392 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 17:47:31,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 17:47:31,518 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 17:47:31,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 17:47:31,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 17:47:31,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 17:47:31,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 17:47:31,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 17:47:31,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 17:47:31,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 17:47:31,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 17:47:33,753 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 17:47:33,754 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 17:47:33,756 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 17:47:33,758 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-09-08 17:59:32,391 [13   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 17:59:32,393 [13   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 17:59:32,393 [13   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 17:59:33,357 [13   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:59:33,357 [13   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 17:59:33,370 [13   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:59:33,370 [13   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 17:59:33,383 [13   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:59:33,383 [13   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 17:59:38,862 [66   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 17:59:38,862 [66   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 17:59:38,863 [66   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 17:59:38,878 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:59:38,878 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 17:59:38,903 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:59:38,903 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 17:59:38,917 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 17:59:38,917 [66   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:00:18,672 [61   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:00:18,672 [61   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:00:18,672 [61   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:00:18,688 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:00:18,688 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:00:18,703 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:00:18,703 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:00:18,718 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:00:18,718 [61   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:08,261 [60   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:02:08,261 [60   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:02:08,261 [60   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:02:08,281 [60   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:08,281 [60   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:08,293 [60   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:08,293 [60   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:08,309 [60   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:08,309 [60   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:09,537 [56   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:02:09,537 [56   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:02:09,537 [56   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:02:09,550 [56   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:09,550 [56   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:09,561 [56   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:09,561 [56   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:09,573 [56   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:09,573 [56   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:41,292 [50   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:02:41,292 [50   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:02:41,292 [50   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:02:41,306 [50   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:41,306 [50   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:41,318 [50   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:41,318 [50   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:02:41,334 [50   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:02:41,334 [50   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:03:59,736 [54   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:03:59,737 [54   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:03:59,737 [54   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:04:10,586 [54   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:04:10,587 [54   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:04:10,601 [54   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:04:10,602 [54   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:04:10,616 [54   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:04:10,616 [54   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:07:05,526 [26   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:07:05,527 [26   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:07:05,527 [26   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:07:09,635 [26   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:07:09,635 [26   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:07:09,655 [26   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:07:09,655 [26   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:07:09,670 [26   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:07:09,670 [26   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:07:21,175 [12   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:07:21,175 [12   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:07:21,175 [12   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:07:21,187 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:07:21,187 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:07:21,199 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:07:21,199 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:07:21,217 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:07:21,217 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:08:17,242 [34   ] .Web.Controllers.ZeroBlog_HomeController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-09-08 18:08:17,242 [34   ] .Web.Controllers.ZeroBlog_HomeController - There are 1 validation errors:
+WARN  2017-09-08 18:08:17,242 [34   ] .Web.Controllers.ZeroBlog_HomeController - The value '0' is not valid for User_Sex. (User_Sex)
+WARN  2017-09-08 18:08:17,290 [34   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:08:17,290 [34   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:08:17,303 [34   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:08:17,303 [34   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:08:17,316 [34   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:08:17,316 [34   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+DEBUG 2017-09-08 18:14:05,800 [22   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-08 18:14:05,800 [22   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:14:05,802 [22   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:14:05,802 [22   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-08 18:14:15,386 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 18:14:15,406 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 18:14:15,413 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:15,423 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 18:14:15,676 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:14:15,676 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:14:15,677 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:14:15,677 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:14:16,061 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:14:17,893 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 18:14:17,902 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 18:14:17,913 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 18:14:17,917 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 18:14:17,918 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 18:14:18,041 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:14:18,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 18:14:18,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 18:14:18,095 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 18:14:18,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 18:14:18,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 18:14:18,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 18:14:18,097 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 18:14:18,097 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 18:14:20,259 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 18:14:20,260 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 18:14:20,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 18:14:20,263 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-09-08 18:15:18,900 [39   ] .Web.Controllers.ZeroBlog_HomeController - String was not recognized as a valid Boolean.
+System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at ZeroBlog.Web.Controllers.ZeroBlog_HomeController.RegisterUserFF(String User_Name, String User_Pwd, String User_Sex, String Mailbox) in D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Web\Controllers\ZeroBlog_HomeController.cs:line 64
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-09-08 18:15:20,462 [39   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:15:20,462 [39   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:15:20,477 [39   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:15:20,478 [39   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+WARN  2017-09-08 18:15:20,492 [39   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-09-08 18:15:20,492 [39   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:37232/ZeroBlog_Home/RegisterUserFF
+DEBUG 2017-09-08 18:16:04,173 [42   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-08 18:16:04,174 [42   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:16:04,179 [42   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:16:04,179 [42   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-08 18:16:15,051 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 18:16:15,069 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 18:16:15,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:15,084 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 18:16:15,225 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:16:15,225 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:16:15,225 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:16:15,225 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:16:15,637 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:16:17,176 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 18:16:17,185 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 18:16:17,198 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 18:16:17,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 18:16:17,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 18:16:17,331 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:16:17,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 18:16:17,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 18:16:17,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 18:16:17,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 18:16:17,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 18:16:17,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 18:16:17,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 18:16:17,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 18:16:19,573 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 18:16:19,574 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 18:16:19,576 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 18:16:19,577 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-09-08 18:23:25,501 [52   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-09-08 18:23:25,502 [52   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:23:25,504 [52   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:23:25,504 [52   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-09-08 18:23:35,553 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-09-08 18:23:35,573 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-09-08 18:23:35,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:35,589 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-09-08 18:23:35,833 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:23:35,833 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:23:35,833 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:23:35,833 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-09-08 18:23:36,226 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-09-08 18:23:37,933 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-09-08 18:23:37,942 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-09-08 18:23:37,955 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-09-08 18:23:37,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2017-09-08 18:23:37,962 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-09-08 18:23:38,103 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-09-08 18:23:38,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-09-08 18:23:38,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-09-08 18:23:38,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-09-08 18:23:38,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2017-09-08 18:23:38,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2017-09-08 18:23:38,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-09-08 18:23:38,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-09-08 18:23:38,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-09-08 18:23:40,439 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-09-08 18:23:40,442 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-09-08 18:23:40,446 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-09-08 18:23:40,448 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.

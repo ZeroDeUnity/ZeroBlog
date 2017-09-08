@@ -39,12 +39,13 @@ namespace ZeroBlog.Zero_UserInfos
         public RegisterZero_UserInfoOutput RegisterUser(RegisterZero_UserInfoInput input)
         {
             var RegisterMsg = string.Empty;
-            var users = from userss in _Zero_UserInfoRepository.GetAll()
-                        where userss.User_Name == input.User_Name
-                        select userss;
+            //下面被注释的是因为验证用户存在和这一块注册进数据库分开了.所以注释
+            //var users = from userss in _Zero_UserInfoRepository.GetAll()
+            //            where userss.User_Name == input.User_Name
+            //            select userss;
 
-            if (!users.Any())
-            {
+            //if (!users.Any())
+            //{
                 var Zero_UserInfo = new Zero_UserInfo
                 {
                     User_Name = input.User_Name,
@@ -54,15 +55,48 @@ namespace ZeroBlog.Zero_UserInfos
                     LoginTime = DateTime.Now,
                     CreateTime = DateTime.Now
                 };
-                RegisterMsg = "注册成功!";
+            var id= _Zero_UserInfoRepository.InsertAndGetId(Zero_UserInfo);
+            if (id!=null)
+            {
+                RegisterMsg = "注册成功";
             }
             else
             {
-                //尽管前端会进行验证用户名,但后台还是把方法写全
-                RegisterMsg = "用户名已存在!";
+                RegisterMsg = "注册失败";
             }
+                
+            //}
+            //else
+            //{
+            //    //尽管前端会进行验证用户名,但后台还是把方法写全
+            //    RegisterMsg = "用户名已存在!";
+            //}
 
             return new RegisterZero_UserInfoOutput() { state= RegisterMsg };
+        }
+
+        /// <summary>
+        /// 验证用户名是否存在
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public ValidateUserOutput ValidateUser(ValidateUserInput input) {
+            var RegisterState = string.Empty;
+            var users = from userss in _Zero_UserInfoRepository.GetAll()
+                        where userss.User_Name == input.UserName
+                        select userss;
+            if (users.Any())
+            {
+                //表示存在该用户
+                RegisterState = "1";
+            }
+            else
+            {
+                //表示不存在
+                RegisterState = "0";
+            }
+
+            return new ValidateUserOutput() { state= RegisterState };
         }
     }
 }

@@ -1,11 +1,12 @@
 ﻿.header {
+    min-height: 300px;
     background: url(../../Images/QD_images/bj3.jpg)no-repeat;
     background-size: cover;
 }
 
 body {
     margin: 0;
-    color: #6a6f8c;
+    color: #768c94;
     background: #c8c8c8;
     /*font: 600 16px/18px 'Open Sans',sans-serif;*/
 }
@@ -34,22 +35,21 @@ input, button {
     border: none;
 }
 
-.login-wrap {
-    width: 100%;
-    margin: auto;
-    max-width: 525px;
-    min-height: 670px;
-    position: relative;
-    background: url(../img/bg.jpg) no-repeat center;
-    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	background:url(../../Images/QD_images/bj3.jpg) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
-
-.login-html {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    padding: 90px 70px 50px 70px;
-    background: rgba(40,57,101,.9);
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
 }
 
     .login-html .sign-in-htm,
