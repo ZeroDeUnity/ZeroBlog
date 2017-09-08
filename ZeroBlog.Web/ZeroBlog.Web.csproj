@@ -381,12 +381,14 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="images\CureLogo.ico" />
+    <Content Include="images\QD_images\bj3.jpg" />
+    <Content Include="images\QD_images\bj2.jpg" />
     <Content Include="images\QD_images\ban.jpg" />
     <Content Include="images\QD_images\banner.jpg" />
     <Content Include="images\QD_images\bj.jpg" />
     <Content Include="images\QD_images\bj123.jpg" />
-    <Content Include="images\QD_images\bj2.jpg" />
-    <Content Include="images\QD_images\bj3.jpg" />
+    <Content Include="images\QD_images\bj21.jpg" />
+    <Content Include="images\QD_images\bj31.jpg" />
     <Content Include="images\QD_images\bo.jpg" />
     <Content Include="images\QD_images\img-sprite.png" />
     <Content Include="images\QD_images\logo.png" />
