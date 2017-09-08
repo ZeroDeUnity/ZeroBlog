@@ -81,7 +81,6 @@ D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\System.Collection
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\System.Linq.Dynamic.Core.dll
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\ZeroBlog.Core.dll
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\ZeroBlog.Core.pdb
-D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\ZeroBlog.Core.dll.config
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\Abp.xml
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\Abp.EntityFramework.xml
 D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\Abp.EntityFramework.Common.xml

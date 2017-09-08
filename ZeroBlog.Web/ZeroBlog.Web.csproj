@@ -368,6 +368,9 @@
     <Content Include="css\QD_css\owl.carousel.css" />
     <Content Include="css\QD_css\portfolio.css" />
     <Content Include="css\QD_css\style.css" />
+    <Content Include="css\ZeroBlog_Home\Index.css" />
+    <Content Include="css\ZeroBlog_Home\RegisterUser.css" />
+    <Content Include="css\ZeroBlog_Home\single.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\QD_fonts\glyphicons-halflings-regular.svg" />
@@ -493,6 +496,9 @@
     <Content Include="Scripts\sweetalert\sweet-alert.min.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Scripts\ZeroBlog_Home\Index.js" />
+    <Content Include="Scripts\ZeroBlog_Home\RegisterUser.js" />
+    <Content Include="Scripts\ZeroBlog_Home\single.js" />
     <Content Include="Views\Account\Login.css">
       <DependentUpon>Login.less</DependentUpon>
     </Content>
@@ -560,6 +566,8 @@
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\ZeroBlog_Home\Index.cshtml" />
     <Content Include="Views\ZeroBlog_Home\single.cshtml" />
+    <Content Include="Views\ZeroBlog_Home\RegisterUser.cshtml" />
+    <Content Include="Views\Shared\MyLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,10 @@
+﻿        #daimadiv {
+            transition-property: height;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+        }
+        #q {
+            transition-property: height;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+        }

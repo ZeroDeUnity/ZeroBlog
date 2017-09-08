@@ -9,738 +9,675 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="" />
 
+    
     <link href="~/css/QD_css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- Custom Theme files -->
-
-    <!--theme-style-->
     <link href="~/css/QD_css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!--//theme-style-->
     <script src="~/Scripts/jquery-2.2.0.min.js"></script>
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="~/Scripts/QD_js/move-top.js"></script>
     <script type="text/javascript" src="~/Scripts/QD_js/easing.js"></script>
     <script src="~/Scripts/Common/jquery.timers-1.2.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-            });
-
-            //设备宽度
-            var s = window.screen;
-            var width = q.width = s.width;
-            var height = q.height;
-            var yPositions = Array(300).join(0).split('');
-            var ctx = q.getContext('2d');
-            var draw = function () {
-                ctx.fillStyle = 'rgba(0,0,0,.05)';
-                ctx.fillRect(0, 0, width, height);
-                ctx.fillStyle = 'green';/*代码颜色*/
-                ctx.font = '10pt Georgia';
-                yPositions.map(function (y, index) {
-                    text = String.fromCharCode(1e2 + Math.random() * 330);
-                    x = (index * 10) + 10;
-                    q.getContext('2d').fillText(text, x, y);
-                    if (y > Math.random() * 1e4) {
-                        yPositions[index] = 0;
-                    } else {
-                        yPositions[index] = y + 10;
-                    }
-                });
-            };
-            RunMatrix();
-            function RunMatrix() {
-                Game_Interval = setInterval(draw, 30);
-                $('body').oneTime('3s', function () {
-                    clearInterval(Game_Interval);
-                    //$("#daimadiv").css("display", "none");
-                    $("#q").css("height", "0");
-                    $("#daimadiv").css("height", "0");
-                });
-
-            }
-
-
-
-        });
-    </script>
-    <!----start-top-nav-script---->
-
     <script type="text/javascript" src="~/Scripts/QD_js/modernizr.custom.js"></script>
-    <!--animate-->
     <link href="~/css/QD_css/animate.css" rel="stylesheet" type="text/css" media="all">
     <script src="~/Scripts/QD_js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <!--//end-animate-->
-    <style type="text/css">
-        #daimadiv {
-            transition-property: height;
-            transition-duration: 0.2s;
-            transition-timing-function: linear;
-        }
-        #q {
-            transition-property: height;
-            transition-duration: 0.2s;
-            transition-timing-function: linear;
-        }
 
-    </style>
+    <link href="~/css/ZeroBlog_Home/Index.css" rel="stylesheet" />
+    <script src="~/Scripts/ZeroBlog_Home/Index.js"></script>
+
 
 </head>
 <body>
-    <!--start-up-animation-->
+    <!--加载首页时显示动画-->
     <div id="daimadiv" align="center" style="position:fixed; left:0; top:0px; width:100%; height:100%;background-color:black;z-index:1000;">
         <canvas id="q" width="940" height="900"></canvas>
     </div>
 
-    <div></div>
+    <!--页头-->
+    <div class="header" id="home">
+        <div class="container">
+            <div class="head">
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand logo wow fadeInLeft animated" data-wow-delay=".5s">
+                            <h1><span><a href="~/ZeroBlog_Home/index" style="color:#AF8484;">团<br>子<br>先<br>生<br><span>是<br></span>咸<br>鱼</a></span></h1>
+                        </div>
 
-    <div>
-        <!--header-->
-        <div class="header" id="home">
-            <div class="container">
-                <div class="head">
-                    <nav class="navbar navbar-default">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <div class="navbar-brand logo wow fadeInLeft animated" data-wow-delay=".5s">
-                                <h1><span><a href="~/ZeroBlog_Home/index" style="color:#AF8484;">团<br>子<br>先<br>生<br><span>是<br></span>咸<br>鱼</a></span></h1>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                        @*<div class="banner">
+                                <a class="hvr-rectangle-out wow fadeInDown animated" style="color:yellow" data-wow-delay="1.5s">123</a>
+                            </div>*@
+                        <ul class="nav navbar-nav wow fadeInDown animated" data-wow-delay="0.5s">
+                            <li><a href="~/ZeroBlog_Home/Index"><span class="fontcolor1" data-hover="Home">主页</span></a> </li>
+                            <li><a href="#about" class="scroll"><span class="fontcolor1" data-hover="About">心情</span></a></li>
+                            <li><a href="#gallery" class="scroll"><span class="fontcolor1" data-hover="Gallery">相册</span></a></li>
+                            <li><a href="#services" class="scroll "><span class="fontcolor1" data-hover="Services">博客</span> </a></li>
+                            <li><a href="#events" class="scroll"><span class="fontcolor1" data-hover="Events">Demo</span> </a></li>
+                            <li><a href="#team" class="scroll "><span class="fontcolor1" data-hover="Team">留言板</span> </a></li>
+                            <li><a href="~/ZeroBlog_Home/RegisterUser"><span class="fontcolor1" data-hover="Contact">注册</span></a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+
+
+                </nav>
+
+            </div>
+            <div class="banner">
+                <section class="wrapper wow fadeInUp animated" style="font-size: 13px; " data-wow-delay="0.5s">
+                    <h2 style="color: #0065C3; ">ご主人さまおかり、ご饭をする？</h2>
+                    <h3 style="color: #ee7070; " class="sentence">
+                        お风吕に入る？
+                        <div class="popEffect">
+                            <span> .そ</span>
+                            <span>.れ</span>
+                            <span>.と</span>
+                            <span>.も</span>
+                            <span>.私?</span>
+                        </div>
+                    </h3>
+                </section>
+                <a href="~/ZeroBlog_Home/single" class="hvr-rectangle-out wow fadeInDown animated" style="color: #8CBF82; " data-wow-delay=".5s">My Blog</a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+        <!--content-->
+    <div class="content">
+            <div>
+                <div class="container">
+                    <div class="nav-sidebar wow fadeInLeft animated col-top" id="about">
+                        <h3>团子小树洞 </h3>
+                        <p>
+                            おとといは兎をみたの。昨日は鹿。<br />
+                            今日はあなた。
+                        </p>
+                    </div>
+                    <!---->
+                    <div class="tab-head">
+                        <nav class="col-md-6 nav-sidebar wow fadeInLeft animated" data-wow-delay=".5s">
+                            <ul class="nav tabs">
+                                <li class="active"><a href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>无聊</a></li>
+                                <li class=""><a href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>随笔</a></li>
+                                <li class=""><a href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>哇,社会是真的险恶</a></li>
+                                <li class=""><a href="#tab4" data-toggle="tab"><span class="glyphicon glyphicon-erase" aria-hidden="true"></span>鸡汤</a></li>
+                                <li class=""><a href="#tab5" data-toggle="tab"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>脑壳瓦特了</a></li>
+                            </ul>
+                        </nav>
+                        <div class="col-md-6 tab-content wow fadeInRight animated" data-wow-delay=".5s">
+                            <div class=" tab-pane active text-style" id="tab1">
+                                <div class="facts">
+                                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                                    <h4>无聊死了,谁来救救我</h4>
+                                    <p>
+                                        臣妾有句妈卖批不知道当不当讲...什么?已经讲了?那你来打我呀!!!!RBQRBQ!!!!!~~~
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane  text-style" id="tab2">
+                                <div class="facts">
+                                    <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+                                    <h4> Int类型几个字节?</h4>
+                                    <p>
+                                        不知道,我是劫匪不是劳什子程序猿(╯‵□′)╯︵┻━┻
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane  text-style" id="tab3">
+                                <div class="facts">
+                                    <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+                                    <h4>加班没工资</h4>
+                                    <p>
+                                        这不是很正常???说的好像你不加班就有什么事情做一样>_<
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane text-style" id="tab4">
+                                <div class="facts">
+                                    <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+                                    <h4>没什么大不了</h4>
+                                    <p>
+                                        凡事开头难,然后中间难,之后结尾难,最后更加难,死了算了...
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane  text-style" id="tab5">
+                                <div class="facts">
+                                    <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+                                    <h4>喵喵喵喵喵</h4>
+                                    <p>
+                                        喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵~~~~
+                                    </p>
+
+                                </div>
                             </div>
 
                         </div>
-
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-                            @*<div class="banner">
-                                    <a class="hvr-rectangle-out wow fadeInDown animated" style="color:yellow" data-wow-delay="1.5s">123</a>
-                                </div>*@
-                            <ul class="nav navbar-nav wow fadeInDown animated" data-wow-delay="0.5s">
-                                <li><a href="#home" class=" scroll "><span class="fontcolor1" data-hover="Home">主页</span></a> </li>
-                                <li><a href="#about" class=" scroll "><span class="fontcolor1" data-hover="About">心情</span> </a> </li>
-                                <li><a href="#gallery" class="scroll"><span class="fontcolor1" data-hover="Gallery">相册</span></a></li>
-                                <li><a href="#services" class="scroll "><span class="fontcolor1" data-hover="Services">博客</span> </a></li>
-                                <li><a href="#events" class="scroll"><span class="fontcolor1" data-hover="Events">Demo</span> </a></li>
-                                <li><a href="#team" class="scroll "><span class="fontcolor1" data-hover="Team">留言板</span> </a></li>
-                                <li><a href="#contact" class=" scroll "><span class="fontcolor1" data-hover="Contact">注册</span></a></li>
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-
-
-                    </nav>
-
-                </div>
-                <div class="banner">
-                    <section class="wrapper wow fadeInUp animated" style="font-size: 13px; " data-wow-delay="0.5s">
-                        <h2 style="color: #0065C3; ">ご主人さまおかり、ご饭をする？</h2>
-                        <h3 style="color: #ee7070; " class="sentence">
-                            お风吕に入る？
-                            <div class="popEffect">
-                                <span> .そ</span>
-                                <span>.れ</span>
-                                <span>.と</span>
-                                <span>.も</span>
-                                <span>.私?</span>
-                            </div>
-                        </h3>
-                    </section>
-                    <a href="~/ZeroBlog_Home/single" class="hvr-rectangle-out wow fadeInDown animated" style="color: #8CBF82; " data-wow-delay=".5s">My Blog</a>
-
-                </div>
-            </div>
-        </div>
-        <!--content-->
-        <div class="content">
-            <div class="container">
-                <div class="nav-sidebar wow fadeInLeft animated col-top" id="about">
-                    <h3>团子小树洞 </h3>
-                    <p>
-                        おとといは兎をみたの。昨日は鹿。<br />
-                        今日はあなた。
-                    </p>
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
                 <!---->
-                <div class="tab-head">
-                    <nav class="col-md-6 nav-sidebar wow fadeInLeft animated" data-wow-delay=".5s">
-                        <ul class="nav tabs">
-                            <li class="active"><a href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>无聊</a></li>
-                            <li class=""><a href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>随笔</a></li>
-                            <li class=""><a href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>哇,社会是真的险恶</a></li>
-                            <li class=""><a href="#tab4" data-toggle="tab"><span class="glyphicon glyphicon-erase" aria-hidden="true"></span>鸡汤</a></li>
-                            <li class=""><a href="#tab5" data-toggle="tab"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>脑壳瓦特了</a></li>
-                        </ul>
-                    </nav>
-                    <div class="col-md-6 tab-content wow fadeInRight animated" data-wow-delay=".5s">
-                        <div class=" tab-pane active text-style" id="tab1">
-                            <div class="facts">
-                                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                                <h4>无聊死了,谁来救救我</h4>
-                                <p>
-                                    臣妾有句妈卖批不知道当不当讲...什么?已经讲了?那你来打我呀!!!!RBQRBQ!!!!!~~~
-                                </p>
+                <div class="portfolio" id="gallery">
 
-                            </div>
+                    <div class="portfolio-top wow fadeInDown animated" data-wow-delay=".5s">
+
+                        <div class="col-md-4 grid slideanim">
+                            <figure class="effect-jazz">
+                                <a href="#portfolioModal1" data-toggle="modal">
+
+                                    <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
+                                    <figcaption>
+                                        <h4> 小剧场耶</h4>
+                                        <p> 什么也没有什么也不想要.</p>
+                                    </figcaption>
+                                </a>
+                            </figure>
                         </div>
-                        <div class="tab-pane  text-style" id="tab2">
-                            <div class="facts">
-                                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
-                                <h4> Int类型几个字节?</h4>
-                                <p>
-                                    不知道,我是劫匪不是劳什子程序猿(╯‵□′)╯︵┻━┻
-                                </p>
+                        <div class="col-md-4 grid slideanim">
+                            <figure class="effect-jazz">
+                                <a href="#portfolioModal2" data-toggle="modal">
 
-                            </div>
+                                    <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
+                                    <figcaption>
+                                        <h4> 相册1</h4>
+                                        <p> 相册简介啦.</p>
+                                    </figcaption>
+                                </a>
+                            </figure>
                         </div>
-                        <div class="tab-pane  text-style" id="tab3">
-                            <div class="facts">
-                                <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
-                                <h4>加班没工资</h4>
-                                <p>
-                                    这不是很正常???说的好像你不加班就有什么事情做一样>_<
-                                </p>
+                        <div class="col-md-4 grid slideanim">
+                            <figure class="effect-jazz">
+                                <a href="#portfolioModal3" data-toggle="modal">
 
-                            </div>
-                        </div>
-                        <div class="tab-pane text-style" id="tab4">
-                            <div class="facts">
-                                <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
-                                <h4>没什么大不了</h4>
-                                <p>
-                                    凡事开头难,然后中间难,之后结尾难,最后更加难,死了算了...
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="tab-pane  text-style" id="tab5">
-                            <div class="facts">
-                                <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
-                                <h4>喵喵喵喵喵</h4>
-                                <p>
-                                    喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵~~~~
-                                </p>
-
-                            </div>
+                                    <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
+                                    <figcaption>
+                                        <h4> 相册1</h4>
+                                        <p> 相册简介啦.</p>
+                                    </figcaption>
+                                </a>
+                            </figure>
                         </div>
 
+                        <div class="clearfix"></div>
                     </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <!---->
-            <div class="portfolio" id="gallery">
+                    <div class="portfolio-top wow fadeInUp animated" data-wow-delay=".5s">
+                        <div class=" col-md-3 grid grid-wi slideanim">
+                            <figure class="effect-jazz">
+                                <a href="#portfolioModal4" data-toggle="modal">
 
-                <div class="portfolio-top wow fadeInDown animated" data-wow-delay=".5s">
-
-                    <div class="col-md-4 grid slideanim">
-                        <figure class="effect-jazz">
-                            <a href="#portfolioModal1" data-toggle="modal">
-
-                                <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
-                                <figcaption>
-                                    <h4> 小剧场耶</h4>
-                                    <p> 什么也没有什么也不想要.</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 grid slideanim">
-                        <figure class="effect-jazz">
-                            <a href="#portfolioModal2" data-toggle="modal">
-
-                                <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
-                                <figcaption>
-                                    <h4> 相册1</h4>
-                                    <p> 相册简介啦.</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 grid slideanim">
-                        <figure class="effect-jazz">
-                            <a href="#portfolioModal3" data-toggle="modal">
-
-                                <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
-                                <figcaption>
-                                    <h4> 相册1</h4>
-                                    <p> 相册简介啦.</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-
-                    <div class="clearfix"></div>
-                </div>
-                <div class="portfolio-top wow fadeInUp animated" data-wow-delay=".5s">
-                    <div class=" col-md-3 grid grid-wi slideanim">
-                        <figure class="effect-jazz">
-                            <a href="#portfolioModal4" data-toggle="modal">
-
-                                <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
-                                <figcaption>
-                                    <h4 class="effcet-text"> 相册2</h4>
-                                    <p> 相册相册相册 .</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="col-md-3 grid grid-wi slideanim">
-                        <figure class="effect-jazz">
-                            <a href="#portfolioModal5" data-toggle="modal">
-
-                                <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
-                                <figcaption>
-                                    <h4 class="effcet-text"> 相册2</h4>
-                                    <p> 相册相册相册 .</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="col-md-3 grid grid-wi slideanim">
-                        <figure class="effect-jazz">
-                            <a href="#portfolioModal6" data-toggle="modal">
-
-                                <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
-                                <figcaption>
-                                    <h4 class="effcet-text"> 相册2</h4>
-                                    <p> 相册相册相册 .</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="col-md-3 grid grid-wi slideanim">
-                        <figure class="effect-jazz">
-                            <a href="#portfolioModal7" data-toggle="modal">
-
-                                <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
-                                <figcaption>
-                                    <h4 class="effcet-text"> 相册2</h4>
-                                    <p> 相册相册相册 .</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <!---->
-            <!-- Portfolio Modals -->
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
+                                    <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
+                                    <figcaption>
+                                        <h4 class="effcet-text"> 相册2</h4>
+                                        <p> 相册相册相册 .</p>
+                                    </figcaption>
+                                </a>
+                            </figure>
                         </div>
-                    </div>
-                    <div class="container">
+                        <div class="col-md-3 grid grid-wi slideanim">
+                            <figure class="effect-jazz">
+                                <a href="#portfolioModal5" data-toggle="modal">
 
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h3>相册相册</h3>
-
-                                <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
-                                <p>一大堆简介.</p>
-                            </div>
+                                    <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
+                                    <figcaption>
+                                        <h4 class="effcet-text"> 相册2</h4>
+                                        <p> 相册相册相册 .</p>
+                                    </figcaption>
+                                </a>
+                            </figure>
                         </div>
+                        <div class="col-md-3 grid grid-wi slideanim">
+                            <figure class="effect-jazz">
+                                <a href="#portfolioModal6" data-toggle="modal">
 
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
+                                    <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
+                                    <figcaption>
+                                        <h4 class="effcet-text"> 相册2</h4>
+                                        <p> 相册相册相册 .</p>
+                                    </figcaption>
+                                </a>
+                            </figure>
                         </div>
-                    </div>
-                    <div class="container">
+                        <div class="col-md-3 grid grid-wi slideanim">
+                            <figure class="effect-jazz">
+                                <a href="#portfolioModal7" data-toggle="modal">
 
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h3>相册</h3>
-
-                                <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
-                                <p>一大堆简介.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h3>相册</h3>
-
-                                <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
-                                <p>一大堆简介.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h3>一大堆简介</h3>
-
-                                <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
-                                <p>一大堆简介.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h3>相册</h3>
-
-                                <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
-                                <p>一大堆简介.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h3>相册</h3>
-
-                                <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
-                                <p>一大堆简介.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h3>相册</h3>
-
-                                <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
-                                <p>一大堆简介.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- /Portfolio Modals -->
-            <!---->
-            <div class="container">
-                <div class="services" id="services">
-                    <h3>搞事情搞事情</h3>
-                    <div class="ser-grid ">
-                        <div class="col-md-4 ser-top wow fadeInLeft animated" data-wow-delay=".5s">
-                            <h5>母鸡配种</h5>
-                            <p>母鸡配种的特别技巧.</p>
-                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-                        </div>
-                        <div class="col-md-4 ser-top wow fadeInUp animated" data-wow-delay=".5s">
-                            <h5>舰R黑暗炼钢术</h5>
-                            <p>黑暗炼钢不会永远捞不到好船么 . </p>
-                            <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
-                        </div>
-                        <div class="col-md-4 ser-top wow fadeInRight animated" data-wow-delay=".5s">
-                            <h5>如何成为程序猿</h5>
-                            <p>程序猿有什么好做的,还是做死宅吧老哥. </p>
-                            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                                    <img src="~/images/QD_images/z1.jpg" alt="img25" class="img-responsive" />
+                                    <figcaption>
+                                        <h4 class="effcet-text"> 相册2</h4>
+                                        <p> 相册相册相册 .</p>
+                                    </figcaption>
+                                </a>
+                            </figure>
                         </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
-            </div>
-            <!---->
-            <div class="event" id="events">
+                <!---->
+                <!-- Portfolio Modals -->
+                <div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>相册相册</h3>
+
+                                    <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
+                                    <p>一大堆简介.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>相册</h3>
+
+                                    <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
+                                    <p>一大堆简介.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>相册</h3>
+
+                                    <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
+                                    <p>一大堆简介.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>一大堆简介</h3>
+
+                                    <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
+                                    <p>一大堆简介.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>相册</h3>
+
+                                    <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
+                                    <p>一大堆简介.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>相册</h3>
+
+                                    <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
+                                    <p>一大堆简介.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>相册</h3>
+
+                                    <img src="~/images/QD_images/z1.jpg" class="img-responsive" alt="">
+                                    <p>一大堆简介.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /Portfolio Modals -->
+                <!---->
                 <div class="container">
-
-                    <div class="top-event">
-                        <h3>一些小点子 </h3>
-                        <p>
-                            不存在的,这里还没开始写后台呢
-                        </p>
-                    </div>
-                    <div class="event-grid ">
-                        <div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
-                            <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
-                            <div class="event-top">
-                                <div class="event-gr">
-                                    <h4><a href="single">demo</a> </h4>
-                                    <p> 是的没错,还什么都没有</p>
-                                </div>
+                    <div class="services" id="services">
+                        <h3>搞事情搞事情</h3>
+                        <div class="ser-grid ">
+                            <div class="col-md-4 ser-top wow fadeInLeft animated" data-wow-delay=".5s">
+                                <h5>母鸡配种</h5>
+                                <p>母鸡配种的特别技巧.</p>
+                                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
                             </div>
-                        </div>
-                        <div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
-                            <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
-                            <div class="event-top event-top1">
-                                <div class="event-gr">
-                                    <h4><a href="single">demo</a> </h4>
-                                    <p> 是的没错,还什么都没有</p>
-                                </div>
+                            <div class="col-md-4 ser-top wow fadeInUp animated" data-wow-delay=".5s">
+                                <h5>舰R黑暗炼钢术</h5>
+                                <p>黑暗炼钢不会永远捞不到好船么 . </p>
+                                <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
                             </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="event-grid">
-                        <div class="event-left event-left1 wow fadeInRight animated" data-wow-delay=".5s">
-                            <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                            <div class="col-md-4 ser-top wow fadeInRight animated" data-wow-delay=".5s">
+                                <h5>如何成为程序猿</h5>
+                                <p>程序猿有什么好做的,还是做死宅吧老哥. </p>
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                            </div>
                             <div class="clearfix"></div>
-                            <div class="event-top event-t">
-                                <div class="event-gr">
-                                    <h4><a href="single">demo</a> </h4>
-                                    <p> 是的没错,还什么都没有</p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="event" id="events">
+                    <div class="container">
+
+                        <div class="top-event">
+                            <h3>一些小点子 </h3>
+                            <p>
+                                不存在的,这里还没开始写后台呢
+                            </p>
+                        </div>
+                        <div class="event-grid ">
+                            <div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
+                                <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                                <div class="event-top">
+                                    <div class="event-gr">
+                                        <h4><a href="single">demo</a> </h4>
+                                        <p> 是的没错,还什么都没有</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="event-right event-right1 wow fadeInLeft animated" data-wow-delay=".5s">
-                            <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                            <div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
+                                <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                                <div class="event-top event-top1">
+                                    <div class="event-gr">
+                                        <h4><a href="single">demo</a> </h4>
+                                        <p> 是的没错,还什么都没有</p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="clearfix"></div>
-                            <div class="event-top event-t1">
-                                <div class="event-gr">
-                                    <h4><a href="single">demo</a> </h4>
-                                    <p> 是的没错,还什么都没有</p>
+                        </div>
+                        <div class="event-grid">
+                            <div class="event-left event-left1 wow fadeInRight animated" data-wow-delay=".5s">
+                                <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                                <div class="clearfix"></div>
+                                <div class="event-top event-t">
+                                    <div class="event-gr">
+                                        <h4><a href="single">demo</a> </h4>
+                                        <p> 是的没错,还什么都没有</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="event-grid ">
-                        <div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
-                            <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
-                            <div class="event-top">
-                                <div class="event-gr">
-                                    <h4><a href="single">demo</a> </h4>
-                                    <p> 是的没错,还什么都没有</p>
+                            <div class="event-right event-right1 wow fadeInLeft animated" data-wow-delay=".5s">
+                                <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                                <div class="clearfix"></div>
+                                <div class="event-top event-t1">
+                                    <div class="event-gr">
+                                        <h4><a href="single">demo</a> </h4>
+                                        <p> 是的没错,还什么都没有</p>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
-                            <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
-                            <div class="event-top event-top1">
-                                <div class="event-gr">
-                                    <h4><a href="single">demo</a> </h4>
-                                    <p> 是的没错,还什么都没有</p>
+                        <div class="event-grid ">
+                            <div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
+                                <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                                <div class="event-top">
+                                    <div class="event-gr">
+                                        <h4><a href="single">demo</a> </h4>
+                                        <p> 是的没错,还什么都没有</p>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
+                                <a href="single"><img src="~/images/QD_images/z1.jpg" class="img-responsive" alt=""></a>
+                                <div class="event-top event-top1">
+                                    <div class="event-gr">
+                                        <h4><a href="single">demo</a> </h4>
+                                        <p> 是的没错,还什么都没有</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="advantage">
-                <div class="container">
-                    <div class="advantage-top">
-                        <h3>待定</h3>
-                        <p>
-                            还没想好.
-                        </p>
-                    </div>
-                    <div class="ad-top">
-                        <div class="col-md-4 wel wow fadeInLeft animated" data-wow-delay=".5s">
-                            <div class="content-ic">
-                                <i class="glyphicon glyphicon-file"></i>
-                            </div>
-                            <div class="content-text">
-                                <h5>总会有的 </h5>
-                                <p>以后慢慢加上 </p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="col-md-4 wel wow fadeInUp animated" data-wow-delay=".5s">
-                            <div class="content-ic">
-                                <i class="glyphicon glyphicon-tag"></i>
-                            </div>
-                            <div class="content-text">
-                                <h5>总会有的 </h5>
-                                <p>以后慢慢加上 </p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="col-md-4 wel wow fadeInRight animated" data-wow-delay=".5s">
-                            <div class="content-ic">
-                                <i class="glyphicon glyphicon-earphone"></i>
-                            </div>
-                            <div class="content-text">
-                                <h5>总会有的 </h5>
-                                <p>以后慢慢加上 </p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                </div>
-            </div>
-            <!---->
-            <div class="our-team" id="team">
-                <div class="container">
-                    <h3>留言板</h3>
-                    <div class="test-top">
-                        <div class="col-md-6 test-top1 test-to wow fadeInUp animated" data-wow-delay=".5s">
-                            <div class=" test-top2">
-                                <p>虽然是留言板,,, </p>
-                                <img src="~/images/QD_images/qu.png" alt="">
-                                <div class="clearfix"> </div>
-                            </div>
-                            <div class="test-top3">
-                                <img src="~/images/QD_images/tx1.jpg" class="img-responsive" alt="">
-                                <h6> 小咸鱼</h6>
-                                <div class="clearfix"> </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 test-top1 wow fadeInDown animated" data-wow-delay=".5s">
-                            <div class=" test-top2">
-                                <p>团子你没吃饭么 </p>
-                                <img src="~/images/QD_images/tx1.png" alt="">
-                                <div class="clearfix"> </div>
-                            </div>
-                            <div class=" test-top3">
-                                <img src="~/images/QD_images/tx1.jpg" class="img-responsive" alt="">
-                                <h6> 老咸鱼</h6>
-                                <div class="clearfix"> </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"> </div>
                     </div>
                 </div>
 
-
-
-
-
-                @*<div class="team">
-                        <div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
-                            <div class="team-1">
-                                <div class="col-md-5 col-1 ">
-                                    <img class="img-responsive gray" src="~/images/QD_images/te.jpg" alt="">
+                <div class="advantage">
+                    <div class="container">
+                        <div class="advantage-top">
+                            <h3>待定</h3>
+                            <p>
+                                还没想好.
+                            </p>
+                        </div>
+                        <div class="ad-top">
+                            <div class="col-md-4 wel wow fadeInLeft animated" data-wow-delay=".5s">
+                                <div class="content-ic">
+                                    <i class="glyphicon glyphicon-file"></i>
                                 </div>
-                                <div class="col-md-7 col-1-at">
-                                    <h5><a href="single">Victoria</a></h5>
-                                    <ul class="social-in">
-                                        <li><a href="#"><i> </i></a></li>
-                                        <li><a href="#"><i class="icon"> </i></a></li>
-                                        <li><a href="#"><i class="icon1"> </i></a></li>
-                                    </ul>
-                                    <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                                <div class="content-text">
+                                    <h5>总会有的 </h5>
+                                    <p>以后慢慢加上 </p>
                                 </div>
                                 <div class="clearfix"> </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
-                            <div class="team-1">
-                                <div class="col-md-5 col-1">
-                                    <img class="img-responsive gray" src="~/images/QD_images/te1.jpg" alt="">
+                            <div class="col-md-4 wel wow fadeInUp animated" data-wow-delay=".5s">
+                                <div class="content-ic">
+                                    <i class="glyphicon glyphicon-tag"></i>
                                 </div>
-                                <div class="col-md-7 col-1-at">
-                                    <h5><a href="single">Patrick</a></h5>
-                                    <ul class="social-in">
-                                        <li><a href="#"><i> </i></a></li>
-                                        <li><a href="#"><i class="icon"> </i></a></li>
-                                        <li><a href="#"><i class="icon1"> </i></a></li>
-                                    </ul>
-                                    <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                                <div class="content-text">
+                                    <h5>总会有的 </h5>
+                                    <p>以后慢慢加上 </p>
                                 </div>
                                 <div class="clearfix"> </div>
                             </div>
+                            <div class="col-md-4 wel wow fadeInRight animated" data-wow-delay=".5s">
+                                <div class="content-ic">
+                                    <i class="glyphicon glyphicon-earphone"></i>
+                                </div>
+                                <div class="content-text">
+                                    <h5>总会有的 </h5>
+                                    <p>以后慢慢加上 </p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-
-                        <div class="clearfix"> </div>
                     </div>
-                    <div class="team">
-                        <div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
-                            <div class="team-1">
-                                <div class="col-md-5 col-1">
-                                    <img class="img-responsive gray" src="~/images/QD_images/te3.jpg" alt="">
+                </div>
+                <!---->
+                <div class="our-team" id="team">
+                    <div class="container">
+                        <h3>留言板</h3>
+                        <div class="test-top">
+                            <div class="col-md-6 test-top1 test-to wow fadeInUp animated" data-wow-delay=".5s">
+                                <div class=" test-top2">
+                                    <p>虽然是留言板,,, </p>
+                                    <img src="~/images/QD_images/qu.png" alt="">
+                                    <div class="clearfix"> </div>
                                 </div>
-                                <div class="col-md-7 col-1-at">
-                                    <h5><a href="single">William</a></h5>
-                                    <ul class="social-in">
-                                        <li><a href="#"><i> </i></a></li>
-                                        <li><a href="#"><i class="icon"> </i></a></li>
-                                        <li><a href="#"><i class="icon1"> </i></a></li>
-                                    </ul>
-                                    <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                                <div class="test-top3">
+                                    <img src="~/images/QD_images/tx1.jpg" class="img-responsive" alt="">
+                                    <h6> 小咸鱼</h6>
+                                    <div class="clearfix"> </div>
                                 </div>
-                                <div class="clearfix"> </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
-                            <div class="team-1">
-                                <div class="col-md-5 col-1 ">
-                                    <img class="img-responsive gray" src="~/images/QD_images/te2.jpg" alt="">
+                            <div class="col-md-6 test-top1 wow fadeInDown animated" data-wow-delay=".5s">
+                                <div class=" test-top2">
+                                    <p>团子你没吃饭么 </p>
+                                    <img src="~/images/QD_images/tx1.png" alt="">
+                                    <div class="clearfix"> </div>
                                 </div>
-                                <div class="col-md-7 col-1-at">
-                                    <h5><a href="single">Federica</a></h5>
-                                    <ul class="social-in">
-                                        <li><a href="#"><i> </i></a></li>
-                                        <li><a href="#"><i class="icon"> </i></a></li>
-                                        <li><a href="#"><i class="icon1"> </i></a></li>
-                                    </ul>
-                                    <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                                <div class=" test-top3">
+                                    <img src="~/images/QD_images/tx1.jpg" class="img-responsive" alt="">
+                                    <h6> 老咸鱼</h6>
+                                    <div class="clearfix"> </div>
                                 </div>
-                                <div class="clearfix"> </div>
                             </div>
+                            <div class="clearfix"> </div>
                         </div>
+                    </div>
 
-                        <div class="clearfix"> </div>
-                    </div>*@
+
+
+
+
+                    @*<div class="team">
+                    <div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1 ">
+                                <img class="img-responsive gray" src="~/images/QD_images/te.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single">Victoria</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1">
+                                <img class="img-responsive gray" src="~/images/QD_images/te1.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single">Patrick</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="team">
+                    <div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1">
+                                <img class="img-responsive gray" src="~/images/QD_images/te3.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single">William</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1 ">
+                                <img class="img-responsive gray" src="~/images/QD_images/te2.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single">Federica</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"> </div>
+                </div>*@
+                </div>
             </div>
-        </div>
         <!---->
         <div class="clients">
             <div class="container">
@@ -787,67 +724,67 @@
             </div>
         </div>
 
-        <!---->
-        <!---->
-    </div>
-    <!--contact--->
-    <div class="contact" id="contact">
-        <div class="col-md-6 map wow fadeInLeft animated" data-wow-delay=".5s">
-            <iframe src="http://www.baidu.com"></iframe>
-        </div>
-        <div class="col-md-6 contact-form wow fadeInRight animated" data-wow-delay=".5s">
-            <h3>这里做成注册页面?</h3>
-            <div class="col-md-6 contact-top">
-                <form>
-                    <input type="text" placeholder="Your Name" required="">
-                    <input type="text" placeholder="Your password" required="">
-                    <input type="text" placeholder="Affirm password" required="">
-                    <textarea placeholder="Your Message" required></textarea>
-                    <label class="hvr-rectangle-out">
-                        <input type="submit" value="注册">
-                    </label>
-                </form>
+        <div class="contact" id="contact">
+            <div class="col-md-6 map wow fadeInLeft animated" data-wow-delay=".5s">
+                <iframe src="http://www.baidu.com"></iframe>
             </div>
-
-            <div class="col-md-6 contact-left">
-
-
-                <div class="address">
-                    <div class=" address-grid">
-                        <i class="glyphicon glyphicon-map-marker"></i>
-                        <div class="address1">
-                            <h6>恩恩..</h6>
-                            <p>
-                                Zero先生,
-                                QQ 1506065358
-                            </p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class=" address-grid ">
-                        <i class="glyphicon glyphicon-phone"></i>
-                        <div class="address1">
-                            <h6>Zero Phone:</h6>
-                            <p>+18692064069</p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class=" address-grid ">
-                        <i class="glyphicon glyphicon-envelope"></i>
-                        <div class="address1">
-                            <h6>Email:</h6>
-                            <p><a href="1506065358@qq.com"> 1506065358@qq.com</a></p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-
+            <div class="col-md-6 contact-form wow fadeInRight animated" data-wow-delay=".5s">
+                <h3>这里做成注册页面?</h3>
+                <div class="col-md-6 contact-top">
+                    <form>
+                        <input type="text" placeholder="Your Name" required="">
+                        <input type="text" placeholder="Your password" required="">
+                        <input type="text" placeholder="Affirm password" required="">
+                        <textarea placeholder="Your Message" required></textarea>
+                        <label class="hvr-rectangle-out">
+                            <input type="submit" value="注册">
+                        </label>
+                    </form>
                 </div>
+
+                <div class="col-md-6 contact-left">
+
+
+                    <div class="address">
+                        <div class=" address-grid">
+                            <i class="glyphicon glyphicon-map-marker"></i>
+                            <div class="address1">
+                                <h6>恩恩..</h6>
+                                <p>
+                                    Zero先生,
+                                    QQ 1506065358
+                                </p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class=" address-grid ">
+                            <i class="glyphicon glyphicon-phone"></i>
+                            <div class="address1">
+                                <h6>Zero Phone:</h6>
+                                <p>+18692064069</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class=" address-grid ">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                            <div class="address1">
+                                <h6>Email:</h6>
+                                <p><a href="1506065358@qq.com"> 1506065358@qq.com</a></p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
             </div>
             <div class="clearfix"></div>
-
         </div>
-        <div class="clearfix"></div>
+
     </div>
+    <!--contact--->
+
 
 
 
@@ -868,21 +805,7 @@
 
     </div>
     <!--//footer-->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            /*
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear'
-            };
-            */
 
-            $().UItoTop({ easingType: 'easeOutQuart' });
-
-        });
-    </script>
     <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 

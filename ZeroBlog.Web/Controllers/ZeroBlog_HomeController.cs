@@ -31,6 +31,11 @@ namespace ZeroBlog.Web.Controllers
         {
             return View();
         }
+        
+        public ActionResult RegisterUser()
+        {
+            return View();
+        }
 
     }
 }
