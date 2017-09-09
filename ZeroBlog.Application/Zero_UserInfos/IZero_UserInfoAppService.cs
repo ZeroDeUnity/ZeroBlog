@@ -17,7 +17,7 @@ namespace ZeroBlog.Zero_UserInfos
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        LoginZero_UserInfoOutput CheckLogin(LoginZero_UserInfoInput input);
+        LoginZero_UserInfoOutput Login(LoginZero_UserInfoInput input);
 
         /// <summary>
         /// 注册用户

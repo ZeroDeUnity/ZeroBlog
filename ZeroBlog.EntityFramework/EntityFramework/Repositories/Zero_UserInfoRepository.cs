@@ -19,28 +19,24 @@ namespace ZeroBlog.EntityFramework.Repositories
         /// </summary>
         /// <param name="UserName">用户名</param>
         /// <param name="UserPwd">用户密码</param>
-        /// <returns>返回0和1,0代表没有数据,1代表用户存在</returns>
-        public int CheckUser(string UserName, string UserPwd)
+        /// <returns></returns>
+        public IQueryable<Zero_UserInfo> CheckUser(string UserName, string UserPwd)
         {
-            var datas = GetAll();
-            int state = 0;
+            var datas = GetAll().Where(d => d.User_Name == UserName && d.User_Pwd == UserPwd);
 
-            if (UserName.Length > 0 && UserPwd.Length > 0)
-            {
-                //这是用count统计数量来判断,下面的any性能更优
-                //int nums = 0;
-                //nums = datas.Where(d => d.User_Name == UserName && d.User_Pwd == UserPwd).Count();
-                //if (nums > 0)
-                //{
-                //    state = 1;
-                //}
-                if (datas.Where(d => d.User_Name == UserName && d.User_Pwd == UserPwd).Any())
-                {
-                    state = 1;
-                }
-            }
+            return datas;
+        }
 
-            return state;
+        /// <summary>
+        /// 验证用户是否存在
+        /// </summary>
+        /// <param name="UserName">用户名</param>
+        /// <returns></returns>
+        public IQueryable<Zero_UserInfo> ValidateUser(string UserName) {
+            var users = from userss in GetAll()
+                        where userss.User_Name == UserName
+                        select userss;
+            return users;
         }
 
 

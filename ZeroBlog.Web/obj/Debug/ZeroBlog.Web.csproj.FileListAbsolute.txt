@@ -278,3 +278,7 @@ D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Web\bin\zh\Hangfire.Core.resources.dll
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.csprojResolveAssemblyReference.cache
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.dll
 D:\mywork\ZeroBlog\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.pdb
+D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Web\bin\ZeroBlog.Application.dll.config
+D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Web\bin\ZeroBlog.Core.dll.config
+D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Web\bin\ZeroBlog.EntityFramework.dll.config
+D:\MyWork\ZeroBlog\ZeroBlog\ZeroBlog.Web\bin\ZeroBlog.WebApi.dll.config

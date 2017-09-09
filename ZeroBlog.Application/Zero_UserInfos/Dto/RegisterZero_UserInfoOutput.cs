@@ -15,5 +15,10 @@ namespace ZeroBlog.Zero_UserInfos.Dto
         /// 注册情况,注册成功就返回注册成功
         /// </summary>
         public string state { get; set; }
+
+        /// <summary>
+        /// 返回用户部分信息
+        /// </summary>
+        public ListZero_UserInfoDto UserInfo;
     }
 }

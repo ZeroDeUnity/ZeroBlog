@@ -40,6 +40,20 @@
 
     $().UItoTop({ easingType: 'easeOutQuart' });//在顶部时隐藏回到顶部导航栏
 
+    var cookies = getCookie("Id");
+    
+    if (cookies.length > 0) {
+        $("#LoginTitle").html(getCookie("UserName"));
+    }
+
     new WOW().init();
 
 });
+
+function getCookie(name) {
+    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg))
+        return unescape(arr[2]);
+    else
+        return null;
+}

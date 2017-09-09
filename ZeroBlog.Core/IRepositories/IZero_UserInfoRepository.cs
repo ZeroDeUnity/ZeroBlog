@@ -15,7 +15,14 @@ namespace ZeroBlog.IRepositories
         /// </summary>
         /// <param name="UserName">用户名</param>
         /// <param name="UserPwd">用户密码</param>
-        /// <returns>返回0和1,0代表没有数据,1代表用户存在</returns>
-        int CheckUser(string UserName,string UserPwd);
+        /// <returns></returns>
+        IQueryable<Zero_UserInfo> CheckUser(string UserName,string UserPwd);
+
+        /// <summary>
+        /// 验证用户是否存在
+        /// </summary>
+        /// <param name="UserName">用户名</param>
+        /// <returns></returns>
+        IQueryable<Zero_UserInfo> ValidateUser(string UserName);
     }
 }
