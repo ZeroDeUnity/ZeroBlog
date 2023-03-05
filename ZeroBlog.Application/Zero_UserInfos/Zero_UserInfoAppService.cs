@@ -16,7 +16,7 @@ namespace ZeroBlog.Zero_UserInfos
     public class Zero_UserInfoAppService :ZeroBlogAppServiceBase, IZero_UserInfoAppService
     {
         private readonly IZero_UserInfoRepository _Zero_UserInfoRepository;
-        public IAbpSession AbpSession { get; set; }
+        public new IAbpSession AbpSession { get; set; }
         //private readonly IRepository<Zero_UserInfo,Guid> _Zero_UserInfoRepository;
 
         public Zero_UserInfoAppService

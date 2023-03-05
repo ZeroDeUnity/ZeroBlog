@@ -233,7 +233,6 @@ D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\Nito.AsyncEx.Concurrent
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\System.Collections.Immutable.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\bin\Debug\System.Linq.Dynamic.Core.xml
-D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.csprojAssemblyReference.cache
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.AbpZero_Initial.resources
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.chongzhishuju.resources
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Entity_Zero_UserInfo.resources
@@ -249,3 +248,4 @@ D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramewor
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.csproj.CopyComplete
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.dll
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.pdb
+D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.csproj.AssemblyReference.cache

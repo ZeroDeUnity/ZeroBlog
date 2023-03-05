@@ -275,8 +275,16 @@ D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Net.Http.Formatting.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Web.Http.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Web.Http.Owin.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Web.Http.WebHost.xml
-D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.csprojAssemblyReference.cache
 D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.csproj.CoreCompileInputs.cache
 D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.csproj.CopyComplete
 D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.dll
 D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.pdb
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\obj\Debug\ZeroBlog.WebApi.csproj.AssemblyReference.cache
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\OpenAI_API.dll
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\OpenAI_API.xml
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\MyWork\C#\ZeroBlog\ZeroBlog.WebApi\bin\Debug\System.Threading.Tasks.Extensions.xml

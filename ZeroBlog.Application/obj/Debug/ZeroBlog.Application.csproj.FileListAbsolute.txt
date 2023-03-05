@@ -181,8 +181,8 @@ D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\bin\Debug\Nito.AsyncEx.Concurrent.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\bin\Debug\System.Collections.Immutable.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\bin\Debug\System.Linq.Dynamic.Core.xml
-D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\obj\Debug\ZeroBlog.Application.csprojAssemblyReference.cache
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\obj\Debug\ZeroBlog.Application.csproj.CoreCompileInputs.cache
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\obj\Debug\ZeroBlog.Application.csproj.CopyComplete
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\obj\Debug\ZeroBlog.Application.dll
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\obj\Debug\ZeroBlog.Application.pdb
+D:\MyWork\C#\ZeroBlog\ZeroBlog.Application\obj\Debug\ZeroBlog.Application.csproj.AssemblyReference.cache

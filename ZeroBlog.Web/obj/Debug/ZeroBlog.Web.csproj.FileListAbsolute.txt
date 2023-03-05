@@ -563,8 +563,8 @@ D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\bin\System.Web.WebPages.Razor.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\bin\System.Web.Http.Owin.xml
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\bin\es\Hangfire.Core.resources.dll
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\bin\zh\Hangfire.Core.resources.dll
-D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.csprojAssemblyReference.cache
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.csproj.CoreCompileInputs.cache
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.csproj.CopyComplete
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.dll
 D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.pdb
+D:\MyWork\C#\ZeroBlog\ZeroBlog.Web\obj\Debug\ZeroBlog.Web.csproj.AssemblyReference.cache
