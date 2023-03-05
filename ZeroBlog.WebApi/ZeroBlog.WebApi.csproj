@@ -173,7 +173,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Api\ZeroBlogTestGPTModule.cs" />
     <Compile Include="Api\ZeroBlogWebApiModule.cs" />
     <Compile Include="Api\Controllers\AccountController.cs" />
     <Compile Include="Api\Models\LoginModel.cs" />
