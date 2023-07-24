@@ -13,6 +13,17 @@ namespace ZeroBlog.ZeroBlogSQL
     /// </summary>
     public class Zero_UserInfo:Entity<Guid>
     {
+
+        /// <summary>
+        /// 无参构造函数
+        /// </summary>
+        public Zero_UserInfo()
+        {
+            // 初始化时间
+            CreateTime = DateTime.Now;
+            UpdateTime = DateTime.Now;
+        }
+
         /// <summary>
         /// 用户名
         /// </summary>
@@ -39,7 +50,13 @@ namespace ZeroBlog.ZeroBlogSQL
         public DateTime CreateTime { get; set;}
 
         /// <summary>
-        /// 创建时间
+        /// 更新时间
+        /// </summary>
+        [Required]
+        public DateTime UpdateTime { get; set; }
+
+        /// <summary>
+        /// 登录时间
         /// </summary>
         [Required]
         public DateTime LoginTime { get; set; }
@@ -49,13 +66,6 @@ namespace ZeroBlog.ZeroBlogSQL
         /// </summary>
         [MaxLength(50)]
         public string MailBox { get; set; }
-
-        /// <summary>
-        /// 无参构造函数
-        /// </summary>
-        public Zero_UserInfo() {
-
-        }
 
     }
 }

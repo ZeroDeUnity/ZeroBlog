@@ -147,10 +147,12 @@
     <Compile Include="Zero_UserInfos\Dto\LoginZero_UserInfoOutput.cs" />
     <Compile Include="Zero_UserInfos\Dto\RegisterZero_UserInfoInput.cs" />
     <Compile Include="Zero_UserInfos\Dto\RegisterZero_UserInfoOutput.cs" />
+    <Compile Include="Zero_UserInfos\Dto\SelectZero_UserInfoListOut.cs" />
     <Compile Include="Zero_UserInfos\Dto\ValidateUserInput.cs" />
     <Compile Include="Zero_UserInfos\Dto\ValidateUserOutput.cs" />
     <Compile Include="Zero_UserInfos\Dto\Zero_UserInfoDto.cs" />
     <Compile Include="Zero_UserInfos\IZero_UserInfoAppService.cs" />
+    <Compile Include="Zero_UserInfos\Dto\SelectZero_UserInfoListInput.cs" />
     <Compile Include="Zero_UserInfos\Zero_UserInfoAppService.cs" />
     <Compile Include="Zero_UserInfos\Zero_UserInfoDtoMapping.cs" />
   </ItemGroup>

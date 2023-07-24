@@ -75,8 +75,7 @@ namespace ZeroBlog.Zero_UserInfos
                     User_Sex = input.User_Sex,
                     User_Pwd = input.User_Pwd,
                     MailBox = input.MailBox,
-                    LoginTime = DateTime.Now,
-                    CreateTime = DateTime.Now
+                    LoginTime = DateTime.Now
                 };
             var id= _Zero_UserInfoRepository.InsertAndGetId(Zero_UserInfo);
             if (id!=null)
@@ -121,6 +120,22 @@ namespace ZeroBlog.Zero_UserInfos
             }
 
             return new ValidateUserOutput() { state= RegisterState };
+        }
+
+        /// <summary>
+        /// 获取用户列表
+        /// </summary>
+        /// <param name="Page" type="int">当前页数</param>
+        /// <param name="PageSize" type="int">当前页最大展示数据条数</param>
+        /// <param name="SelectInput" type="SelectZero_UserInfoListInput">查询用户列表输入参数</param>
+        /// <returns>SelectZero_UserInfoListOut</returns>
+        public SelectZero_UserInfoListOut SelectZero_UserInfoList(int Page, int PageSize, SelectZero_UserInfoListInput SelectInput)
+        {
+/*            var Zero_UserInfoList = _Zero_UserInfoRepository.SelectZero_UserInfoList(Page, PageSize, SelectInput);
+            var Zero_UserInfoListDto = Mapper.Map<List<ListZero_UserInfoDto>>(Zero_UserInfoList);
+            var Zero_UserInfoListCount = _Zero_UserInfoRepository.SelectZero_UserInfoListCount(SelectInput);
+            return new SelectZero_UserInfoListOut() { Zero_UserInfoList = Zero_UserInfoListDto, Zero_UserInfoListCount = Zero_UserInfoListCount };*/
+            return null;
         }
     }
 }

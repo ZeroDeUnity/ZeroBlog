@@ -4594,3 +4594,313 @@ DEBUG 2023-03-05 03:17:49,132 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2023-03-05 03:17:49,132 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2023-03-05 03:17:49,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2023-03-05 03:17:49,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-03-06 00:31:33,577 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-03-06 00:31:33,593 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2023-03-06 00:31:33,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:33,604 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2023-03-06 00:31:33,739 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 00:31:33,739 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 00:31:33,739 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 00:31:33,740 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 00:31:33,901 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 00:31:34,832 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-03-06 00:31:34,841 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-03-06 00:31:34,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-03-06 00:31:34,856 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2023-03-06 00:31:34,857 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-03-06 00:31:34,916 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-03-06 00:31:34,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2023-03-06 00:31:34,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-03-06 00:31:34,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-03-06 00:31:34,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2023-03-06 00:31:34,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2023-03-06 00:31:34,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2023-03-06 00:31:34,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2023-03-06 00:31:34,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2023-03-06 00:31:44,222 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2023-03-06 00:31:44,222 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2023-03-06 00:31:44,223 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2023-03-06 00:31:44,224 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-03-06 11:36:17,248 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-03-06 11:36:17,266 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2023-03-06 11:36:17,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:17,278 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2023-03-06 11:36:17,427 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:36:17,427 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:36:17,427 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:36:17,427 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:36:17,611 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:36:18,572 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-03-06 11:36:18,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-03-06 11:36:18,592 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-03-06 11:36:18,595 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2023-03-06 11:36:18,596 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-03-06 11:36:18,652 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-03-06 11:36:18,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2023-03-06 11:36:18,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-03-06 11:36:18,690 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-03-06 11:36:18,690 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2023-03-06 11:36:18,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2023-03-06 11:36:18,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2023-03-06 11:36:18,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2023-03-06 11:36:18,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2023-03-06 11:36:19,683 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2023-03-06 11:36:19,684 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2023-03-06 11:36:19,685 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2023-03-06 11:36:19,685 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-03-06 11:48:41,432 [66   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2023-03-06 11:48:41,432 [66   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-03-06 11:48:41,433 [66   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-03-06 11:48:41,433 [66   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2023-03-06 11:48:46,247 [92   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-03-06 11:48:46,262 [92   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2023-03-06 11:48:46,267 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,269 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,269 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,269 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,269 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,269 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,270 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,271 [92   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:46,273 [92   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2023-03-06 11:48:46,417 [92   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:48:46,417 [92   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:48:46,417 [92   ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:48:46,417 [92   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-03-06 11:48:46,582 [92   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-03-06 11:48:47,373 [92   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-03-06 11:48:47,378 [92   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-03-06 11:48:47,389 [92   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-03-06 11:48:47,390 [92   ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2023-03-06 11:48:47,391 [92   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-03-06 11:48:47,466 [92   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-03-06 11:48:47,494 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2023-03-06 11:48:47,494 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-03-06 11:48:47,496 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-03-06 11:48:47,496 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2023-03-06 11:48:47,496 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2023-03-06 11:48:47,496 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2023-03-06 11:48:47,496 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2023-03-06 11:48:47,497 [92   ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2023-03-06 11:48:48,700 [92   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2023-03-06 11:48:48,700 [92   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2023-03-06 11:48:48,701 [92   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2023-03-06 11:48:48,702 [92   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-04-23 14:58:16,902 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-04-23 14:58:16,920 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2023-04-23 14:58:16,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:16,931 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2023-04-23 14:58:17,100 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 14:58:17,100 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 14:58:17,100 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 14:58:17,100 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 14:58:17,303 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 14:58:18,288 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-04-23 14:58:18,299 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-04-23 14:58:18,311 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-04-23 14:58:18,313 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2023-04-23 14:58:18,314 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-04-23 14:58:18,371 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-04-23 14:58:18,407 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2023-04-23 14:58:18,407 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-04-23 14:58:18,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-04-23 14:58:18,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2023-04-23 14:58:18,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2023-04-23 14:58:18,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2023-04-23 14:58:18,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2023-04-23 14:58:18,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2023-04-23 14:58:19,408 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2023-04-23 14:58:19,409 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2023-04-23 14:58:19,410 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2023-04-23 14:58:19,410 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-04-23 15:09:06,813 [49   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2023-04-23 15:09:06,814 [49   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-04-23 15:09:06,814 [49   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-04-23 15:09:06,814 [49   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2023-04-23 17:32:08,558 [303  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-04-23 17:32:08,575 [303  ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2023-04-23 17:32:08,580 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,582 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,582 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,582 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,583 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,583 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,583 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,583 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,583 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,583 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,583 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,584 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,584 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,584 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,584 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,584 [303  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:08,587 [303  ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2023-04-23 17:32:08,736 [303  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 17:32:08,736 [303  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 17:32:08,736 [303  ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 17:32:08,736 [303  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-04-23 17:32:08,915 [303  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-04-23 17:32:09,680 [303  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-04-23 17:32:09,685 [303  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-04-23 17:32:09,696 [303  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-04-23 17:32:09,698 [303  ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2023-04-23 17:32:09,699 [303  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-04-23 17:32:09,766 [303  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-04-23 17:32:09,795 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2023-04-23 17:32:09,795 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-04-23 17:32:09,797 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-04-23 17:32:09,797 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2023-04-23 17:32:09,797 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2023-04-23 17:32:09,797 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2023-04-23 17:32:09,797 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2023-04-23 17:32:09,797 [303  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2023-04-23 17:32:10,915 [303  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2023-04-23 17:32:10,916 [303  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2023-04-23 17:32:10,917 [303  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2023-04-23 17:32:10,917 [303  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-07-19 11:59:55,406 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-07-19 11:59:55,422 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2023-07-19 11:59:55,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:55,432 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2023-07-19 11:59:55,587 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 11:59:55,587 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 11:59:55,587 [1    ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 11:59:55,587 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 11:59:55,762 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 11:59:56,788 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-07-19 11:59:56,797 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-07-19 11:59:56,809 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-07-19 11:59:56,811 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2023-07-19 11:59:56,812 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-07-19 11:59:56,873 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-19 11:59:56,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2023-07-19 11:59:56,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-07-19 11:59:56,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-07-19 11:59:56,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2023-07-19 11:59:56,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2023-07-19 11:59:56,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2023-07-19 11:59:56,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2023-07-19 11:59:56,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2023-07-19 11:59:57,915 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2023-07-19 11:59:57,916 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2023-07-19 11:59:57,917 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2023-07-19 11:59:57,917 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-07-19 12:02:45,506 [22   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2023-07-19 12:02:45,507 [22   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-19 12:02:45,507 [22   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-19 12:02:45,507 [22   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2023-07-19 12:12:48,026 [119  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-07-19 12:12:49,058 [119  ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2023-07-19 12:12:49,063 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Web.ZeroBlogWebModule, ZeroBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,065 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogDataModule, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,065 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,065 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,065 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,065 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,066 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,066 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogCoreModule, ZeroBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,066 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.ZeroBlogApplicationModule, ZeroBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,066 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,066 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: ZeroBlog.Api.ZeroBlogWebApiModule, ZeroBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,066 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,066 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,067 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,067 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,067 [119  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:49,069 [119  ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2023-07-19 12:12:49,601 [119  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 12:12:49,601 [119  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 12:12:49,601 [119  ] o.Configuration.LanguageManagementConfig - Converted ZeroBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 12:12:49,601 [119  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-07-19 12:12:49,875 [119  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZeroBlog.EntityFramework.ZeroBlogDbContext, ZeroBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-07-19 12:12:50,399 [119  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-07-19 12:12:50,405 [119  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-07-19 12:12:50,415 [119  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-07-19 12:12:50,417 [119  ] Abp.Localization.LocalizationManager     - Initialized localization source: ZeroBlog
+DEBUG 2023-07-19 12:12:50,417 [119  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-07-19 12:12:50,480 [119  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-19 12:12:50,509 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2023-07-19 12:12:50,509 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-07-19 12:12:50,512 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-07-19 12:12:50,512 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.CreateUserInput
+DEBUG 2023-07-19 12:12:50,512 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Users.Dto.UserListDto
+DEBUG 2023-07-19 12:12:50,512 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2023-07-19 12:12:50,512 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.MultiTenancy.Dto.TenantListDto
+DEBUG 2023-07-19 12:12:50,512 [119  ] Abp.AutoMapper.AbpAutoMapperModule       - ZeroBlog.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2023-07-19 12:12:51,594 [119  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2023-07-19 12:12:51,594 [119  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2023-07-19 12:12:51,595 [119  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2023-07-19 12:12:51,596 [119  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZeroBlog.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2023-07-19 14:45:47,563 [53   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2023-07-19 14:45:47,575 [53   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-19 14:45:47,583 [53   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-07-19 14:45:47,584 [53   ] Abp.Modules.AbpModuleManager             - Shutting down completed.

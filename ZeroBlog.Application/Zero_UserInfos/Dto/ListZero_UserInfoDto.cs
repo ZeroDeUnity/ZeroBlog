@@ -37,6 +37,11 @@ namespace ZeroBlog.Zero_UserInfos.Dto
         public DateTime LoginTime { get; set; }
 
         /// <summary>
+        /// 更新时间
+        /// </summary>
+        public DateTime UpdateTime { get; set; }
+
+        /// <summary>
         /// 用户邮箱
         /// </summary>
         public string MailBox { get; set; }

@@ -249,3 +249,4 @@ D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramewor
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.dll
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.pdb
 D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.EntityFramework.csproj.AssemblyReference.cache
+D:\MyWork\C#\ZeroBlog\ZeroBlog.EntityFramework\obj\Debug\ZeroBlog.Migrations.Add_Zero_UserInfo_Entity.resources
